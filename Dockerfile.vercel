@@ -1,0 +1,29 @@
+FROM dunglas/frankenphp:php8.3
+
+RUN install-php-extensions \
+    pdo_mysql \
+    mbstring \
+    xml \
+    curl \
+    zip \
+    bcmath \
+    intl
+
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
+
+WORKDIR /app
+
+COPY . .
+
+RUN composer install \
+    --no-dev \
+    --optimize-autoloader \
+    --no-interaction
+
+RUN npm install && npm run build
+
+RUN php artisan optimize
+
+EXPOSE 8000
+
+CMD ["frankenphp", "php-server", "--root", "public"]
