@@ -1,0 +1,862 @@
+@extends('layouts.main')
+
+@section('style')
+@endsection
+
+@section('main')
+    <!-- PAGE HEADER & BLUEPRINT META STRIP -->
+    <section class="w-full border-b-[3px] border-on-background bg-surface-container-low relative">
+        <div
+            class="absolute inset-0 opacity-[0.06] pointer-events-none bg-[radial-gradient(#1c1b1b_1.5px,transparent_1.5px)] [background-size:20px_20px]">
+        </div>
+        <div class="max-w-[1360px] mx-auto px-margin-mobile md:px-margin pt-space-xl pb-space-lg relative z-10">
+            <div class="flex flex-wrap items-center justify-between gap-space-sm mb-space-md">
+                <div
+                    class="inline-flex items-center gap-2 px-3 py-1 bg-primary-container text-on-surface border-[2px] border-on-background shadow-[3px_3px_0px_#1c1b1b] font-label-md text-label-md uppercase tracking-wider font-bold">
+                    <span class="w-2 h-2 bg-on-surface inline-block"></span>
+                    ATP KURIKULUM MERDEKA
+                </div>
+                <div class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-2">
+                    <span class="font-code-inline text-primary font-bold">SMK_RPL_XII_GSL_2026</span>
+                    <span class="text-outline">/</span>
+                    <span>DOCUMENT REF: MOD-ATP-005</span>
+                </div>
+            </div>
+            <h1 class="font-headline-xl text-headline-xl text-on-surface uppercase tracking-tight mb-space-sm">
+                5 MATERI UTAMA ATP
+            </h1>
+            <p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl mb-space-lg">
+                Alur Tujuan Pembelajaran Pemrograman Web Kelas XII
+                Semester Gasal — Konsentrasi Keahlian Rekayasa
+                Perangkat Lunak. Arsitektur produksi, standar
+                pengujian industri, dan sinkronisasi kurikulum
+                vokasi.
+            </p>
+            <!-- Overview Status Bar -->
+            <div
+                class="w-full bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] p-space-sm md:p-4 flex flex-col md:flex-row items-center justify-between gap-3">
+                <div
+                    class="flex flex-wrap items-center gap-2 md:gap-4 font-label-sm text-label-sm uppercase font-bold text-on-surface">
+                    <span class="flex items-center gap-1.5"><span
+                            class="w-2.5 h-2.5 bg-primary-container border border-on-background"></span>
+                        5 MODUL LENGKAP</span>
+                    <span class="text-outline">•</span>
+                    <span class="flex items-center gap-1.5"><span
+                            class="w-2.5 h-2.5 bg-secondary-container border border-on-background"></span>
+                        15+ LAB PRAKTIKUM</span>
+                    <span class="text-outline">•</span>
+                    <span class="flex items-center gap-1.5"><span
+                            class="w-2.5 h-2.5 bg-tertiary-container border border-on-background"></span>
+                        5 DOKUMEN PDF</span>
+                    <span class="text-outline">•</span>
+                    <span class="flex items-center gap-1.5"><span
+                            class="w-2.5 h-2.5 bg-inverse-primary border border-on-background"></span>
+                        5 SLIDE PPT</span>
+                </div>
+                <div
+                    class="font-code-inline text-code-inline bg-surface-container px-3 py-1 border-[2px] border-on-background text-on-surface-variant">
+                    COMPLIANCE: INDUSTRI &amp; BNSP
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MAIN CURRICULUM ARCHIVE LIST -->
+    <section class="max-w-[1360px] mx-auto px-margin-mobile md:px-margin py-space-xl flex flex-col gap-space-xl">
+        <!-- ATP 01: BACKEND -->
+        <article
+            class="bg-surface-container-lowest border-[3px] border-on-background shadow-[5px_5px_0px_#1c1b1b] flex flex-col transition-all">
+            <div
+                class="px-space-md py-space-xs bg-surface-container-high border-b-[3px] border-on-background flex flex-wrap items-center justify-between gap-2">
+                <span
+                    class="font-label-md text-label-md font-bold tracking-wider text-on-surface uppercase flex items-center gap-2">
+                    <span class="inline-block w-3 h-3 bg-primary-container border-[1.5px] border-on-background"></span>
+                    ATP.01 // BACKEND
+                </span>
+                <span
+                    class="font-label-sm text-label-sm uppercase text-on-surface-variant bg-surface-container-lowest px-2 py-0.5 border border-on-background">SEMESTER
+                    GASAL • 36 JP</span>
+            </div>
+            <div class="p-space-md md:p-space-lg grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+                <div class="lg:col-span-7 flex flex-col justify-between">
+                    <div>
+                        <h2 class="font-headline-md text-headline-md uppercase text-on-surface mb-2">
+                            FRAMEWORK BACKEND LANJUTAN (LARAVEL 11)
+                        </h2>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+                            Penguasaan arsitektur MVC, database
+                            migration, schema seeder, Eloquent ORM
+                            relasional, dan autentikasi multi-role
+                            untuk kebutuhan enterprise web backend.
+                        </p>
+                        <!-- Topic Badges -->
+                        <div class="flex flex-wrap gap-2 mb-space-md">
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">Authentication
+                                &amp;
+                                Multi-auth</span>
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">Eloquent
+                                ORM &amp; Relations</span>
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">Database
+                                Migration</span>
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">Database
+                                Seeder &amp; Factory</span>
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">REST
+                                API Controller</span>
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">Validation
+                                &amp; Middleware</span>
+                        </div>
+                        <!-- Learning Outcomes -->
+                        <div
+                            class="p-space-sm bg-surface-container-low border-[2px] border-on-background border-dashed mb-space-md">
+                            <span class="font-label-sm text-label-sm font-bold uppercase text-primary block mb-1">Capaian
+                                Pembelajaran:</span>
+                            <p class="font-body-sm text-body-sm text-on-surface">
+                                Siswa mampu merancang skema database
+                                normalisasi ketiga, otomatisasi data
+                                seeding skala ribuan record, dan
+                                menyediakan endpoint RESTful API
+                                terproteksi Bearer token Sanctum.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Actions -->
+                    <div class="flex flex-wrap items-center gap-space-sm pt-space-sm">
+                        <button
+                            class="font-headline-sm text-label-lg uppercase bg-primary-container text-on-surface border-[3px] border-on-background shadow-[3px_3px_0px_#1c1b1b] px-4 py-2 hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[5px_5px_0px_#1c1b1b] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all"
+                            onclick="
+                                            openDrawer(
+                                                'ATP 01: FRAMEWORK BACKEND LANJUTAN (LARAVEL 11)',
+                                            )
+                                        ">
+                            BACA ARTIKEL DETAIL →
+                        </button>
+                        <a class="font-label-md text-label-md uppercase bg-surface-container-lowest text-on-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] px-3 py-2 hover:bg-surface-container transition-all flex items-center gap-1"
+                            href="#">
+                            <span class="material-symbols-outlined text-[16px]">picture_as_pdf</span>
+                            PDF MODUL (2.4 MB) ↓
+                        </a>
+                        <a class="font-label-md text-label-md uppercase bg-surface-container-lowest text-on-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] px-3 py-2 hover:bg-surface-container transition-all flex items-center gap-1"
+                            href="#">
+                            <span class="material-symbols-outlined text-[16px]">slideshow</span>
+                            PPT MATERI (5.1 MB) ↓
+                        </a>
+                    </div>
+                </div>
+                <!-- Code Snippet Box -->
+                <div
+                    class="lg:col-span-5 bg-inverse-surface text-inverse-on-surface border-[3px] border-on-background p-space-md flex flex-col justify-between font-label-sm text-label-sm">
+                    <div>
+                        <div class="flex items-center justify-between border-b border-surface-variant pb-2 mb-3">
+                            <span class="font-code-inline text-secondary-container">routes/api.php</span>
+                            <div class="flex gap-1.5">
+                                <span class="w-2.5 h-2.5 bg-error"></span>
+                                <span class="w-2.5 h-2.5 bg-secondary-container"></span>
+                                <span class="w-2.5 h-2.5 bg-tertiary-container"></span>
+                            </div>
+                        </div>
+                        <pre class="font-code-inline text-code-inline leading-relaxed overflow-x-auto text-surface-bright"><code><span class="text-tertiary-fixed-dim">use</span> App\Http\Controllers\MateriController;
+
+<span class="text-outline-variant">// Endpoint Terproteksi Token</span>
+Route::<span class="text-primary-container">middleware</span>(<span class="text-secondary-fixed">'auth:sanctum'</span>)
+  -&gt;<span class="text-primary-container">group</span>(<span class="text-tertiary-fixed-dim">function</span> () {
+    Route::<span class="text-secondary-fixed-dim">apiResource</span>(
+      <span class="text-secondary-fixed">'materi'</span>,
+      MateriController::<span class="text-tertiary-fixed-dim">class</span>
+    );
+});</code></pre>
+                    </div>
+                    <div
+                        class="mt-4 pt-2 border-t border-surface-variant flex justify-between items-center text-outline-variant font-code-inline text-[11px]">
+                        <span>ENGINE: PHP 8.3 / LARAVEL 11</span>
+                        <span class="text-primary-container">ROUTE_OK [200]</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- ATP 02: FRONTEND -->
+        <article
+            class="bg-surface-container-lowest border-[3px] border-on-background shadow-[5px_5px_0px_#1c1b1b] flex flex-col transition-all">
+            <div
+                class="px-space-md py-space-xs bg-surface-container-high border-b-[3px] border-on-background flex flex-wrap items-center justify-between gap-2">
+                <span
+                    class="font-label-md text-label-md font-bold tracking-wider text-on-surface uppercase flex items-center gap-2">
+                    <span class="inline-block w-3 h-3 bg-secondary-container border-[1.5px] border-on-background"></span>
+                    ATP.02 // FRONTEND
+                </span>
+                <span
+                    class="font-label-sm text-label-sm uppercase text-on-surface-variant bg-surface-container-lowest px-2 py-0.5 border border-on-background">SEMESTER
+                    GASAL • 32 JP</span>
+            </div>
+            <div class="p-space-md md:p-space-lg grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+                <div class="lg:col-span-7 flex flex-col justify-between">
+                    <div>
+                        <h2 class="font-headline-md text-headline-md uppercase text-on-surface mb-2">
+                            FRAMEWORK FRONTEND LANJUTAN (REACT.JS)
+                        </h2>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+                            Pengembangan antarmuka reaktif berbasis
+                            modular komponen, siklus hidup state
+                            modern, integrasi API client
+                            asynchronous, serta adopsi design token
+                            Tailwind CSS.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-space-md">
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">React
+                                Fundamentals</span>
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">Hooks
+                                (useState, useEffect,
+                                useContext)</span>
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">Tailwind
+                                CSS Design System</span>
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">Axios
+                                &amp; SWR Data Fetching</span>
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">React
+                                Router DOM</span>
+                        </div>
+                        <div
+                            class="p-space-sm bg-surface-container-low border-[2px] border-on-background border-dashed mb-space-md">
+                            <span class="font-label-sm text-label-sm font-bold uppercase text-primary block mb-1">Capaian
+                                Pembelajaran:</span>
+                            <p class="font-body-sm text-body-sm text-on-surface">
+                                Siswa mampu membangun Single Page
+                                Application (SPA) responsif yang
+                                mengonsumsi endpoint JSON secara
+                                reaktif lengkap dengan state error
+                                handling dan skeleton loading.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-space-sm pt-space-sm">
+                        <button
+                            class="font-headline-sm text-label-lg uppercase bg-primary-container text-on-surface border-[3px] border-on-background shadow-[3px_3px_0px_#1c1b1b] px-4 py-2 hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[5px_5px_0px_#1c1b1b] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all"
+                            onclick="
+                                            openDrawer(
+                                                'ATP 02: FRAMEWORK FRONTEND LANJUTAN (REACT.JS)',
+                                            )
+                                        ">
+                            BACA ARTIKEL DETAIL →
+                        </button>
+                        <a class="font-label-md text-label-md uppercase bg-surface-container-lowest text-on-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] px-3 py-2 hover:bg-surface-container transition-all flex items-center gap-1"
+                            href="#">
+                            <span class="material-symbols-outlined text-[16px]">picture_as_pdf</span>
+                            PDF MODUL (3.1 MB) ↓
+                        </a>
+                        <a class="font-label-md text-label-md uppercase bg-surface-container-lowest text-on-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] px-3 py-2 hover:bg-surface-container transition-all flex items-center gap-1"
+                            href="#">
+                            <span class="material-symbols-outlined text-[16px]">slideshow</span>
+                            PPT MATERI (6.2 MB) ↓
+                        </a>
+                    </div>
+                </div>
+                <!-- UI Component Blueprint Box -->
+                <div
+                    class="lg:col-span-5 bg-surface border-[3px] border-on-background p-space-md flex flex-col justify-between">
+                    <div class="border-b-[2px] border-on-background pb-2 mb-3 flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase font-bold text-on-surface">COMPONENT SPEC //
+                            REACT VIEW</span>
+                        <span class="font-code-inline text-label-sm text-tertiary">VITE + REACT 18</span>
+                    </div>
+                    <div
+                        class="bg-surface-container-lowest border-[2px] border-on-background p-3 shadow-[3px_3px_0px_#1c1b1b] mb-3">
+                        <div class="flex items-center justify-between mb-2">
+                            <span
+                                class="font-code-inline text-label-sm uppercase bg-secondary-container px-2 py-0.5 border border-on-background font-bold">STATE:
+                                LOADED</span>
+                            <span class="font-code-inline text-[11px] text-on-surface-variant">payload: 24 items</span>
+                        </div>
+                        <div class="space-y-1.5 font-code-inline text-label-sm">
+                            <div class="p-1.5 bg-surface-container border border-on-background flex justify-between">
+                                <span>01. AuthTokenContext</span>
+                                <span class="text-primary font-bold">ACTIVE</span>
+                            </div>
+                            <div class="p-1.5 bg-surface-container border border-on-background flex justify-between">
+                                <span>02. useFetchDataHook</span>
+                                <span class="text-tertiary font-bold">CACHED</span>
+                            </div>
+                            <div class="p-1.5 bg-surface-container border border-on-background flex justify-between">
+                                <span>03. TailwindThemeContract</span>
+                                <span class="text-secondary font-bold">SYNCHRONIZED</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-surface-container-high p-2 border-[2px] border-on-background text-on-surface font-code-inline text-[11px] flex justify-between">
+                        <span>&lt;RouterApp basePath="/portal"
+                            /&gt;</span>
+                        <span class="font-bold text-primary">BUILD PASS</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- ATP 03: DEVOPS & SECURITY -->
+        <article
+            class="bg-surface-container-lowest border-[3px] border-on-background shadow-[5px_5px_0px_#1c1b1b] flex flex-col transition-all">
+            <div
+                class="px-space-md py-space-xs bg-surface-container-high border-b-[3px] border-on-background flex flex-wrap items-center justify-between gap-2">
+                <span
+                    class="font-label-md text-label-md font-bold tracking-wider text-on-surface uppercase flex items-center gap-2">
+                    <span class="inline-block w-3 h-3 bg-tertiary-container border-[1.5px] border-on-background"></span>
+                    ATP.03 // DEVOPS &amp; SECURITY
+                </span>
+                <span
+                    class="font-label-sm text-label-sm uppercase text-on-surface-variant bg-surface-container-lowest px-2 py-0.5 border border-on-background">SEMESTER
+                    GASAL • 28 JP</span>
+            </div>
+            <div class="p-space-md md:p-space-lg grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+                <div class="lg:col-span-7 flex flex-col justify-between">
+                    <div>
+                        <h2 class="font-headline-md text-headline-md uppercase text-on-surface mb-2">
+                            WEB SECURITY, GITHUB &amp; CLOUD
+                            DEPLOYMENT
+                        </h2>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+                            Praktik pengamanan web terhadap celah
+                            keamanan umum, automasi alur kerja Git,
+                            sanitasi variabel lingkungan, dan
+                            deployment otomatis berbasis cloud
+                            environment.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-space-md">
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">OWASP
+                                Top 10 Mitigation</span>
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">CSRF,
+                                XSS &amp; SQL Injection
+                                Defense</span>
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">GitHub
+                                Actions CI/CD</span>
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">Vercel
+                                &amp; Railway
+                                Deployment</span>
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">Environment
+                                Secret Management</span>
+                        </div>
+                        <div
+                            class="p-space-sm bg-surface-container-low border-[2px] border-on-background border-dashed mb-space-md">
+                            <span class="font-label-sm text-label-sm font-bold uppercase text-primary block mb-1">Capaian
+                                Pembelajaran:</span>
+                            <p class="font-body-sm text-body-sm text-on-surface">
+                                Siswa menguasai sanitasi payload
+                                HTTP, manajemen branch Git
+                                terisolasi, penulisan script
+                                pipeline CI/CD, dan hosting aplikasi
+                                produksi tanpa downtime.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-space-sm pt-space-sm">
+                        <button
+                            class="font-headline-sm text-label-lg uppercase bg-primary-container text-on-surface border-[3px] border-on-background shadow-[3px_3px_0px_#1c1b1b] px-4 py-2 hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[5px_5px_0px_#1c1b1b] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all"
+                            onclick="
+                                            openDrawer(
+                                                'ATP 03: WEB SECURITY, GITHUB &amp; CLOUD DEPLOYMENT',
+                                            )
+                                        ">
+                            BACA ARTIKEL DETAIL →
+                        </button>
+                        <a class="font-label-md text-label-md uppercase bg-surface-container-lowest text-on-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] px-3 py-2 hover:bg-surface-container transition-all flex items-center gap-1"
+                            href="#">
+                            <span class="material-symbols-outlined text-[16px]">picture_as_pdf</span>
+                            PDF MODUL (1.9 MB) ↓
+                        </a>
+                        <a class="font-label-md text-label-md uppercase bg-surface-container-lowest text-on-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] px-3 py-2 hover:bg-surface-container transition-all flex items-center gap-1"
+                            href="#">
+                            <span class="material-symbols-outlined text-[16px]">slideshow</span>
+                            PPT MATERI (4.5 MB) ↓
+                        </a>
+                    </div>
+                </div>
+                <!-- CI/CD Pipeline Visual Block -->
+                <div
+                    class="lg:col-span-5 bg-surface-container border-[3px] border-on-background p-space-md flex flex-col justify-between">
+                    <div class="border-b-[2px] border-on-background pb-2 mb-3">
+                        <span class="font-label-sm text-label-sm uppercase font-bold text-on-surface">AUTOMATED CI/CD
+                            WORKFLOW PIPELINE</span>
+                    </div>
+                    <div class="flex flex-col gap-2 font-code-inline text-label-sm">
+                        <div
+                            class="p-2.5 bg-surface-container-lowest border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] flex items-center justify-between">
+                            <span class="flex items-center gap-2 font-bold"><span class="w-2 h-2 bg-on-surface"></span>
+                                01. CODE PUSH</span>
+                            <span class="text-on-surface-variant font-label-sm">git push origin main</span>
+                        </div>
+                        <div class="text-center font-bold text-on-surface">
+                            ↓
+                        </div>
+                        <div
+                            class="p-2.5 bg-secondary-fixed border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] flex items-center justify-between">
+                            <span class="flex items-center gap-2 font-bold"><span class="w-2 h-2 bg-secondary"></span>
+                                02. AUTOMATED TEST</span>
+                            <span class="text-on-secondary-fixed font-label-sm">PHPUnit &amp; Vitest OK</span>
+                        </div>
+                        <div class="text-center font-bold text-on-surface">
+                            ↓
+                        </div>
+                        <div
+                            class="p-2.5 bg-tertiary-fixed border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] flex items-center justify-between">
+                            <span class="flex items-center gap-2 font-bold"><span class="w-2 h-2 bg-tertiary"></span>
+                                03. BUILD ARTIFACT</span>
+                            <span class="text-on-tertiary-fixed font-label-sm">Docker &amp; Bundle Dist</span>
+                        </div>
+                        <div class="text-center font-bold text-on-surface">
+                            ↓
+                        </div>
+                        <div
+                            class="p-2.5 bg-primary-container text-on-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] flex items-center justify-between">
+                            <span class="flex items-center gap-2 font-bold"><span class="w-2 h-2 bg-on-surface"></span>
+                                04. LIVE PRODUCTION</span>
+                            <span class="text-on-surface font-label-sm font-bold">RAILWAY / VERCEL</span>
+                        </div>
+                    </div>
+                    <div class="mt-3 text-[11px] font-code-inline text-on-surface-variant flex justify-between">
+                        <span>TRIGGER: WEBHOOK</span>
+                        <span class="text-primary font-bold">STATUS: RUNNING READY</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- ATP 04: DOKUMENTASI & SOFT SKILL -->
+        <article
+            class="bg-surface-container-lowest border-[3px] border-on-background shadow-[5px_5px_0px_#1c1b1b] flex flex-col transition-all">
+            <div
+                class="px-space-md py-space-xs bg-surface-container-high border-b-[3px] border-on-background flex flex-wrap items-center justify-between gap-2">
+                <span
+                    class="font-label-md text-label-md font-bold tracking-wider text-on-surface uppercase flex items-center gap-2">
+                    <span class="inline-block w-3 h-3 bg-inverse-primary border-[1.5px] border-on-background"></span>
+                    ATP.04 // DOKUMENTASI &amp; SOFT SKILL
+                </span>
+                <span
+                    class="font-label-sm text-label-sm uppercase text-on-surface-variant bg-surface-container-lowest px-2 py-0.5 border border-on-background">SEMESTER
+                    GASAL • 24 JP</span>
+            </div>
+            <div class="p-space-md md:p-space-lg grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+                <div class="lg:col-span-7 flex flex-col justify-between">
+                    <div>
+                        <h2 class="font-headline-md text-headline-md uppercase text-on-surface mb-2">
+                            DOKUMENTASI STANDAR INDUSTRI &amp;
+                            TEKNIK PRESENTASI
+                        </h2>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+                            Penyusunan dokumentasi teknis berstandar
+                            industri, diagram alur sistem, penulisan
+                            laporan teknis formal, dan penyampaian
+                            demo produk di hadapan panel penguji
+                            serta stakeholder klien.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-space-md">
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">Professional
+                                README.md Spec</span>
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">Mermaid.js
+                                &amp; Flowchart
+                                Design</span>
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">ERD
+                                &amp; Data Dictionary</span>
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">Laporan
+                                Resmi Proyek</span>
+                            <span
+                                class="px-2.5 py-1 text-label-sm font-label-sm uppercase bg-surface-container border-[2px] border-on-background text-on-surface">Teknik
+                                Demo &amp; Presentasi
+                                Klien</span>
+                        </div>
+                        <div
+                            class="p-space-sm bg-surface-container-low border-[2px] border-on-background border-dashed mb-space-md">
+                            <span class="font-label-sm text-label-sm font-bold uppercase text-primary block mb-1">Capaian
+                                Pembelajaran:</span>
+                            <p class="font-body-sm text-body-sm text-on-surface">
+                                Siswa mampu mempublikasikan
+                                repositori berkas README lengkap
+                                panduan instalasi, memvisualisasikan
+                                relasi basis data, serta
+                                mengartikulasikan arsitektur sistem
+                                secara lugas.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-space-sm pt-space-sm">
+                        <button
+                            class="font-headline-sm text-label-lg uppercase bg-primary-container text-on-surface border-[3px] border-on-background shadow-[3px_3px_0px_#1c1b1b] px-4 py-2 hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[5px_5px_0px_#1c1b1b] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all"
+                            onclick="
+                                            openDrawer(
+                                                'ATP 04: DOKUMENTASI STANDAR INDUSTRI &amp; TEKNIK PRESENTASI',
+                                            )
+                                        ">
+                            BACA ARTIKEL DETAIL →
+                        </button>
+                        <a class="font-label-md text-label-md uppercase bg-surface-container-lowest text-on-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] px-3 py-2 hover:bg-surface-container transition-all flex items-center gap-1"
+                            href="#">
+                            <span class="material-symbols-outlined text-[16px]">picture_as_pdf</span>
+                            PDF MODUL (2.8 MB) ↓
+                        </a>
+                        <a class="font-label-md text-label-md uppercase bg-surface-container-lowest text-on-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] px-3 py-2 hover:bg-surface-container transition-all flex items-center gap-1"
+                            href="#">
+                            <span class="material-symbols-outlined text-[16px]">slideshow</span>
+                            PPT MATERI (7.0 MB) ↓
+                        </a>
+                    </div>
+                </div>
+                <!-- Documentation Checklist Block -->
+                <div
+                    class="lg:col-span-5 bg-surface-container-lowest border-[3px] border-on-background p-space-md flex flex-col justify-between">
+                    <div class="border-b-[2px] border-on-background pb-2 mb-3">
+                        <span class="font-label-sm text-label-sm uppercase font-bold text-on-surface">STANDARD ARTIFACT
+                            CHECKLIST</span>
+                    </div>
+                    <div class="space-y-2 font-body-sm text-body-sm">
+                        <label
+                            class="flex items-start gap-2.5 p-2 bg-surface-container-low border border-on-background cursor-pointer">
+                            <input checked="" class="mt-0.5 w-4 h-4 accent-primary border-2 border-on-background"
+                                type="checkbox" />
+                            <span><strong>README.md</strong>: Badges,
+                                setup env, prerequisites, and API
+                                table schema.</span>
+                        </label>
+                        <label
+                            class="flex items-start gap-2.5 p-2 bg-surface-container-low border border-on-background cursor-pointer">
+                            <input checked="" class="mt-0.5 w-4 h-4 accent-primary border-2 border-on-background"
+                                type="checkbox" />
+                            <span><strong>System Flowchart</strong>:
+                                User role workflow mapped in
+                                Mermaid.js syntax.</span>
+                        </label>
+                        <label
+                            class="flex items-start gap-2.5 p-2 bg-surface-container-low border border-on-background cursor-pointer">
+                            <input checked="" class="mt-0.5 w-4 h-4 accent-primary border-2 border-on-background"
+                                type="checkbox" />
+                            <span><strong>Data Dictionary</strong>:
+                                Field constraints, types,
+                                primary/foreign keys.</span>
+                        </label>
+                        <label
+                            class="flex items-start gap-2.5 p-2 bg-surface-container-low border border-on-background cursor-pointer">
+                            <input class="mt-0.5 w-4 h-4 accent-primary border-2 border-on-background" type="checkbox" />
+                            <span><strong>Pitch Deck Slide</strong>:
+                                Problem statement, demo walkthrough,
+                                system impact.</span>
+                        </label>
+                    </div>
+                    <div
+                        class="mt-4 pt-2 border-t border-on-background flex justify-between items-center font-code-inline text-[11px] text-on-surface-variant">
+                        <span>AUDIT STATUS: 3/4 VERIFIED</span>
+                        <span class="text-secondary font-bold">READY FOR REVIEW</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- ATP 05: CAPSTONE SHOWCASE (GIANT FEATURED CARD) -->
+        <article
+            class="bg-primary-container text-on-surface border-[4px] border-on-background shadow-[6px_6px_0px_#1c1b1b] relative overflow-hidden">
+            <!-- Decorative graph rule background -->
+            <div
+                class="absolute inset-0 opacity-[0.08] pointer-events-none bg-[radial-gradient(#1c1b1b_2px,transparent_2px)] [background-size:24px_24px]">
+            </div>
+            <div
+                class="px-space-md py-space-sm bg-on-background text-inverse-on-surface flex flex-wrap items-center justify-between gap-2 relative z-10">
+                <span
+                    class="font-label-md text-label-md font-bold tracking-wider uppercase text-secondary-container flex items-center gap-2">
+                    <span class="material-symbols-outlined text-[18px]">verified</span>
+                    ATP.05 // CAPSTONE FINAL PROJECT (KARYA UTAMA)
+                </span>
+                <span
+                    class="font-code-inline text-label-sm uppercase bg-surface-container-lowest text-on-surface px-2.5 py-0.5 border border-on-background font-bold">SEMESTER
+                    GASAL • 40 JP</span>
+            </div>
+            <div class="p-space-md md:p-space-xl relative z-10">
+                <div class="max-w-4xl mb-space-lg">
+                    <h2 class="font-headline-lg text-headline-lg uppercase text-on-surface tracking-tight mb-2">
+                        PROYEK AKHIR FULLSTACK: INTEGRASI &amp;
+                        IMPLEMENTASI NYATA
+                    </h2>
+                    <p class="font-body-lg text-body-lg text-on-surface font-medium leading-relaxed">
+                        Penerapan menyeluruh seluruh capaian
+                        pembelajaran ATP 01 sampai ATP 04 menjadi
+                        sebuah aplikasi web fullstack
+                        production-ready yang teruji,
+                        terdokumentasi, dan ter-deploy secara live
+                        ke server publik.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-space-lg mb-space-xl">
+                    <!-- Stack Highlights -->
+                    <div
+                        class="md:col-span-6 bg-surface-container-lowest border-[3px] border-on-background p-space-md shadow-[4px_4px_0px_#1c1b1b]">
+                        <h3
+                            class="font-label-md text-label-md uppercase font-bold text-on-surface mb-3 pb-2 border-b-[2px] border-on-background flex items-center justify-between">
+                            <span>STACK HIGHLIGHTS</span>
+                            <span class="text-primary font-code-inline">PROD MATRIX</span>
+                        </h3>
+                        <div class="space-y-2.5 font-label-sm text-label-sm">
+                            <div
+                                class="flex items-center justify-between p-2 bg-surface-container-low border border-on-background">
+                                <span class="font-bold">FRONTEND</span>
+                                <span class="font-code-inline text-primary">React 18 + Tailwind CSS</span>
+                            </div>
+                            <div
+                                class="flex items-center justify-between p-2 bg-surface-container-low border border-on-background">
+                                <span class="font-bold">BACKEND</span>
+                                <span class="font-code-inline text-primary">Laravel 11 REST API</span>
+                            </div>
+                            <div
+                                class="flex items-center justify-between p-2 bg-surface-container-low border border-on-background">
+                                <span class="font-bold">DATABASE</span>
+                                <span class="font-code-inline text-primary">PostgreSQL / MySQL InnoDB</span>
+                            </div>
+                            <div
+                                class="flex items-center justify-between p-2 bg-surface-container-low border border-on-background">
+                                <span class="font-bold">DEVOPS</span>
+                                <span class="font-code-inline text-primary">GitHub Actions + Railway
+                                    Cloud</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Feature Breakdown -->
+                    <div
+                        class="md:col-span-6 bg-surface-container-lowest border-[3px] border-on-background p-space-md shadow-[4px_4px_0px_#1c1b1b]">
+                        <h3
+                            class="font-label-md text-label-md uppercase font-bold text-on-surface mb-3 pb-2 border-b-[2px] border-on-background flex items-center justify-between">
+                            <span>CORE FEATURE BREAKDOWN</span>
+                            <span class="text-primary font-code-inline">RUBRIK NILAI</span>
+                        </h3>
+                        <ul class="space-y-2 font-body-sm text-body-sm">
+                            <li class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+                                <span><strong>Auth System</strong>:
+                                    Sanctum Stateful &amp; Bearer
+                                    token guard</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+                                <span><strong>Role-Based Access
+                                        Control</strong>: Admin, Instruktur,
+                                    Siswa</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+                                <span><strong>Dashboard Analytics</strong>: Agregasi metrik performa
+                                    &amp; chart reaktif</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+                                <span><strong>Real-time Reporting</strong>: Export PDF invoice,
+                                    rekapitulasi data</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+                                <span><strong>Audit Log</strong>:
+                                    Pencatatan rekam jejak aktivitas
+                                    kritis sistem</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Capstone Action Row -->
+                <div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+                    <a class="font-headline-sm text-label-lg uppercase bg-on-background text-inverse-on-surface border-[3px] border-on-background shadow-[4px_4px_0px_#ffffff] px-6 py-3.5 hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#ffffff] active:translate-x-[2px] active:translate-y-[2px] transition-all flex items-center gap-2"
+                        data-path="showcase" href="#">
+                        <span class="material-symbols-outlined text-[20px]">rocket_launch</span>
+                        JELAJAHI SHOWCASE PROYEK AKHIR →
+                    </a>
+                    <a class="font-label-md text-label-md uppercase bg-surface-container-lowest text-on-surface border-[3px] border-on-background shadow-[3px_3px_0px_#1c1b1b] px-4 py-3 hover:bg-secondary-container transition-all flex items-center gap-1.5 font-bold"
+                        href="#">
+                        <span class="material-symbols-outlined text-[18px]">download</span>
+                        UNDUH DOKUMEN LAPORAN LENGKAP (PDF) ↓
+                    </a>
+                    <a class="font-label-md text-label-md uppercase bg-surface-container-lowest text-on-surface border-[3px] border-on-background shadow-[3px_3px_0px_#1c1b1b] px-4 py-3 hover:bg-secondary-container transition-all flex items-center gap-1.5 font-bold"
+                        href="#">
+                        <span class="material-symbols-outlined text-[18px]">co_present</span>
+                        SLIDE PRESENTASI SIDANG (PPT) ↓
+                    </a>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!-- INTERACTIVE ARTICLE DETAIL STRUCTURE PREVIEW DRAWER (MODAL COMPONENT) -->
+    <div class="hidden fixed inset-0 z-[100] bg-on-background/70 backdrop-blur-sm p-4 overflow-y-auto" id="atpDrawer">
+        <div class="max-w-4xl mx-auto my-8 bg-surface border-[4px] border-on-background shadow-[8px_8px_0px_#1c1b1b]">
+            <!-- Drawer Header Bar -->
+            <div
+                class="p-space-md bg-secondary-container border-b-[3px] border-on-background flex items-center justify-between">
+                <div>
+                    <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">STRUKTUR DETAIL SILABUS
+                        PEMBELAJARAN</span>
+                    <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface font-bold" id="drawerTitle">
+                        ATP ARTICLE INSPECTOR
+                    </h3>
+                </div>
+                <button
+                    class="w-9 h-9 bg-surface-container-lowest border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] flex items-center justify-center font-bold hover:bg-error hover:text-on-error transition-all"
+                    onclick="closeDrawer()">
+                    ✕
+                </button>
+            </div>
+            <!-- Drawer Content: Standard Editorial Learning Module Structure -->
+            <div class="p-space-lg space-y-space-lg">
+                <!-- 1. TUJUAN PEMBELAJARAN -->
+                <div
+                    class="border-[2px] border-on-background p-space-md bg-surface-container-lowest shadow-[3px_3px_0px_#1c1b1b]">
+                    <span
+                        class="font-label-sm text-label-sm uppercase bg-primary-container px-2 py-0.5 border border-on-background font-bold text-on-surface">SECTION
+                        01</span>
+                    <h4 class="font-headline-sm text-label-lg uppercase font-bold text-on-surface mt-2 mb-1">
+                        TUJUAN PEMBELAJARAN (LEARNING OBJECTIVES)
+                    </h4>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant">
+                        Peserta didik mampu mendesain, menguji, dan
+                        mengimplementasikan arsitektur perangkat
+                        lunak berbasis best-practice industri.
+                        Mengembangkan logika pemrograman modular
+                        dengan reliabilitas tinggi.
+                    </p>
+                </div>
+                <!-- 2. PENGERTIAN & KONSEP UTAMA -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+                    <div
+                        class="border-[2px] border-on-background p-space-md bg-surface-container-lowest shadow-[3px_3px_0px_#1c1b1b]">
+                        <span
+                            class="font-label-sm text-label-sm uppercase bg-surface-container-high px-2 py-0.5 border border-on-background font-bold text-on-surface">SECTION
+                            02</span>
+                        <h4 class="font-headline-sm text-label-lg uppercase font-bold text-on-surface mt-2 mb-1">
+                            PENGERTIAN MODUL
+                        </h4>
+                        <p class="font-body-sm text-body-sm text-on-surface-variant">
+                            Landasan teoritis dan definisi
+                            komprehensif mengenai domain teknologi
+                            yang dibahas dalam modul ini serta
+                            relevansi penggunaannya di dunia kerja.
+                        </p>
+                    </div>
+                    <div
+                        class="border-[2px] border-on-background p-space-md bg-surface-container-lowest shadow-[3px_3px_0px_#1c1b1b]">
+                        <span
+                            class="font-label-sm text-label-sm uppercase bg-surface-container-high px-2 py-0.5 border border-on-background font-bold text-on-surface">SECTION
+                            03</span>
+                        <h4 class="font-headline-sm text-label-lg uppercase font-bold text-on-surface mt-2 mb-1">
+                            KONSEP UTAMA (CORE CONCEPTS)
+                        </h4>
+                        <p class="font-body-sm text-body-sm text-on-surface-variant">
+                            Pemetaan prinsip abstrak mencakup Data
+                            Integrity, Separation of Concerns, Loose
+                            Coupling, dan Zero Trust Security
+                            Paradigm.
+                        </p>
+                    </div>
+                </div>
+                <!-- 3. KOMPONEN & LANGKAH KERJA -->
+                <div
+                    class="border-[2px] border-on-background p-space-md bg-surface-container-lowest shadow-[3px_3px_0px_#1c1b1b]">
+                    <span
+                        class="font-label-sm text-label-sm uppercase bg-tertiary-container px-2 py-0.5 border border-on-background font-bold text-on-surface">SECTION
+                        04 &amp; 05</span>
+                    <h4 class="font-headline-sm text-label-lg uppercase font-bold text-on-surface mt-2 mb-1">
+                        KOMPONEN &amp; LANGKAH KERJA PRAKTIKUM (LAB
+                        STEPS)
+                    </h4>
+                    <ol class="space-y-1.5 font-body-sm text-body-sm text-on-surface mt-2 list-decimal list-inside">
+                        <li>
+                            Inisialisasi lingkungan virtual dan
+                            konfigurasi file environment (.env).
+                        </li>
+                        <li>
+                            Penyusunan migration basis data dan
+                            model relasional dengan validasi schema.
+                        </li>
+                        <li>
+                            Implementasi layer controller dan
+                            penulisan unit test untuk verifikasi
+                            endpoint.
+                        </li>
+                        <li>
+                            Integrasi ke klien antarmuka pengguna
+                            serta pemeliharaan logging error.
+                        </li>
+                    </ol>
+                </div>
+                <!-- 4. CODE EXAMPLE -->
+                <div
+                    class="bg-inverse-surface text-inverse-on-surface border-[3px] border-on-background p-space-md shadow-[3px_3px_0px_#1c1b1b]">
+                    <div class="flex items-center justify-between pb-2 mb-2 border-b border-surface-variant">
+                        <span class="font-label-sm text-label-sm uppercase text-secondary-container">SECTION 06 // CODE
+                            IMPLEMENTATION
+                            PATTERN</span>
+                        <span class="font-code-inline text-[11px] text-tertiary-fixed-dim">SYNTAX: STRICT TYPES</span>
+                    </div>
+                    <pre class="font-code-inline text-code-inline leading-relaxed overflow-x-auto text-surface-bright"><code><span class="text-tertiary-fixed-dim">public function</span> <span class="text-primary-container">store</span>(StoreMateriRequest <span class="text-secondary-fixed">$request</span>): JsonResponse
+{
+    <span class="text-secondary-fixed">$validated</span> = <span class="text-secondary-fixed">$request</span>-&gt;<span class="text-primary-container">validated</span>();
+    <span class="text-secondary-fixed">$materi</span> = <span class="text-tertiary-fixed-dim">$this</span>-&gt;repository-&gt;<span class="text-primary-container">createWithAudit</span>(<span class="text-secondary-fixed">$validated</span>);
+
+    <span class="text-tertiary-fixed-dim">return</span> response()-&gt;<span class="text-primary-container">json</span>([
+        <span class="text-secondary-fixed">'status'</span> =&gt; <span class="text-secondary-fixed">'success'</span>,
+        <span class="text-secondary-fixed">'payload'</span> =&gt; <span class="text-secondary-fixed">$materi</span>
+    ], <span class="text-primary-container">201</span>);
+}</code></pre>
+                </div>
+                <!-- 5. DIAGRAM & KESIMPULAN -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+                    <div
+                        class="border-[2px] border-on-background p-space-md bg-surface-container-lowest shadow-[3px_3px_0px_#1c1b1b]">
+                        <span
+                            class="font-label-sm text-label-sm uppercase bg-surface-container-high px-2 py-0.5 border border-on-background font-bold text-on-surface">SECTION
+                            07</span>
+                        <h4 class="font-headline-sm text-label-lg uppercase font-bold text-on-surface mt-2 mb-1">
+                            DIAGRAM ARSITEKTUR
+                        </h4>
+                        <div
+                            class="p-3 bg-surface-container border border-on-background text-center font-code-inline text-[12px] mt-2">
+                            [CLIENT REQUEST] ➔ [GATEWAY] ➔ [AUTH
+                            MIDDLEWARE] ➔ [CONTROLLER] ➔
+                            [PERSISTENCE LAYER]
+                        </div>
+                    </div>
+                    <div
+                        class="border-[2px] border-on-background p-space-md bg-surface-container-lowest shadow-[3px_3px_0px_#1c1b1b]">
+                        <span
+                            class="font-label-sm text-label-sm uppercase bg-surface-container-high px-2 py-0.5 border border-on-background font-bold text-on-surface">SECTION
+                            08</span>
+                        <h4 class="font-headline-sm text-label-lg uppercase font-bold text-on-surface mt-2 mb-1">
+                            KESIMPULAN &amp; EVALUASI
+                        </h4>
+                        <p class="font-body-sm text-body-sm text-on-surface-variant">
+                            Ringkasan pemahaman komparatif, rubrik
+                            penilaian performa siswa, panduan
+                            troubleshooting, dan penugasan
+                            portofolio mandiri.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Drawer Footer -->
+            <div
+                class="p-space-md bg-surface-container-low border-t-[3px] border-on-background flex justify-between items-center">
+                <span class="font-code-inline text-label-sm text-on-surface-variant">FORMAT: INDUSTRIAL SYLLABUS
+                    SPECIFICATION
+                    v2.4</span>
+                <button
+                    class="font-label-md text-label-md uppercase bg-on-background text-inverse-on-surface px-4 py-2 border-[2px] border-on-background font-bold shadow-[2px_2px_0px_#1c1b1b] hover:bg-primary transition-all"
+                    onclick="closeDrawer()">
+                    TUTUP INSPECTOR
+                </button>
+            </div>
+        </div>
+    </div>
+@endsection
+
+@section('script')
+@endsection

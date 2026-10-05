@@ -1,0 +1,1208 @@
+@extends('layouts.main')
+
+@section('style')
+@endsection
+
+@section('main')
+<div class="w-full border-b-[3px] border-on-background bg-surface-container-low relative overflow-hidden">
+        <div
+            class="absolute inset-0 opacity-[0.05] pointer-events-none bg-[radial-gradient(#1c1b1b_1px,transparent_1px)] [background-size:20px_20px]">
+        </div>
+        <div class="max-w-[1360px] mx-auto px-margin-mobile md:px-margin py-space-xl relative z-10">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-space-lg mb-space-lg">
+                <div class="max-w-3xl">
+                    <div
+                        class="inline-flex items-center gap-space-xs px-3 py-1 bg-primary-container text-on-surface border-[2px] border-on-background shadow-[3px_3px_0px_#1c1b1b] font-label-sm text-label-sm uppercase mb-space-sm font-bold">
+                        <span class="w-2 h-2 bg-on-background"></span>
+                        DOCUMENTATION ARCHIVE
+                    </div>
+                    <h1
+                        class="font-headline-xl text-headline-xl uppercase tracking-tighter text-on-surface leading-none mb-space-xs">
+                        PEMBELAJARAN
+                        <span
+                            class="bg-secondary-container px-2 border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b]">RPL</span>
+                    </h1>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mt-space-sm">
+                        Dokumentasi komprehensif materi pembelajaran
+                        kejuruan dari Kelas X hingga Kelas XII
+                        Rekayasa Perangkat Lunak (RPL / PPLG).
+                        Terstruktur, berbasis artefak kode, dan
+                        berorientasi standar industri software
+                        modern.
+                    </p>
+                </div>
+                <div
+                    class="flex flex-col gap-2 p-space-sm bg-surface border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b]">
+                    <div class="flex items-center justify-between gap-space-md border-b-[2px] border-on-background pb-1">
+                        <span class="font-label-sm text-label-sm text-on-surface uppercase font-bold">TOTAL SILABUS</span>
+                        <span
+                            class="font-label-sm text-label-sm bg-tertiary-fixed text-on-tertiary-fixed px-2 py-0.5 border border-on-background">18
+                            MODUL</span>
+                    </div>
+                    <div class="font-code-inline text-code-inline text-on-surface-variant">
+                        SMK KURIKULUM MERDEKA • PPLG
+                    </div>
+                </div>
+            </div>
+            <!-- Quick Filter Bar -->
+            <div class="flex flex-wrap gap-2 pt-space-sm border-t-[2px] border-on-background" id="filter-container">
+                <button
+                    class="filter-btn active-filter font-label-md text-label-md uppercase px-4 py-2 border-[2px] border-on-background bg-on-background text-inverse-on-surface shadow-[3px_3px_0px_#1c1b1b] transition-all flex items-center gap-2"
+                    data-filter="all" onclick="filterCurriculum('all')">
+                    <span class="material-symbols-outlined text-[16px]">view_agenda</span>
+                    SEMUA TINGKAT [18]
+                </button>
+                <button
+                    class="filter-btn font-label-md text-label-md uppercase px-4 py-2 border-[2px] border-on-background bg-surface-container-lowest text-on-surface hover:bg-secondary-container shadow-[3px_3px_0px_#1c1b1b] transition-all flex items-center gap-2"
+                    data-filter="kelas-x" onclick="filterCurriculum('kelas-x')">
+                    <span class="w-3 h-3 bg-tertiary border border-on-background"></span>
+                    KELAS X (DASAR)
+                </button>
+                <button
+                    class="filter-btn font-label-md text-label-md uppercase px-4 py-2 border-[2px] border-on-background bg-surface-container-lowest text-on-surface hover:bg-secondary-container shadow-[3px_3px_0px_#1c1b1b] transition-all flex items-center gap-2"
+                    data-filter="kelas-xi" onclick="filterCurriculum('kelas-xi')">
+                    <span class="w-3 h-3 bg-secondary-container border border-on-background"></span>
+                    KELAS XI (PENGEMBANGAN)
+                </button>
+                <button
+                    class="filter-btn font-label-md text-label-md uppercase px-4 py-2 border-[2px] border-on-background bg-surface-container-lowest text-on-surface hover:bg-secondary-container shadow-[3px_3px_0px_#1c1b1b] transition-all flex items-center gap-2"
+                    data-filter="kelas-xii" onclick="filterCurriculum('kelas-xii')">
+                    <span class="w-3 h-3 bg-primary-container border border-on-background"></span>
+                    KELAS XII (LANJUTAN)
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="max-w-[1360px] mx-auto px-margin-mobile md:px-margin py-space-xl flex flex-col gap-space-xl">
+        <!-- ================= SECTION KELAS X ================= -->
+        <section class="curriculum-tier flex flex-col gap-space-lg" id="section-kelas-x">
+            <div
+                class="bg-surface-container-lowest border-[3px] border-on-background shadow-[5px_5px_0px_#1c1b1b] p-space-md md:p-space-lg relative">
+                <div
+                    class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md border-b-[2px] border-on-background pb-space-md mb-space-md">
+                    <div class="flex flex-wrap items-center gap-space-sm">
+                        <span
+                            class="px-3 py-1 bg-tertiary-fixed text-on-tertiary-fixed border-[2px] border-on-background font-label-sm text-label-sm font-bold uppercase shadow-[2px_2px_0px_#1c1b1b]">
+                            LEVEL 01 / FOUNDATION
+                        </span>
+                        <span class="font-headline-md text-headline-md uppercase tracking-tight text-on-surface">
+                            KELAS X — DASAR PEMROGRAMAN &amp;
+                            KOMPUTASI
+                        </span>
+                    </div>
+                    <span class="font-code-inline text-code-inline text-on-surface-variant flex items-center gap-1">
+                        <span class="material-symbols-outlined text-[16px]">folder_zip</span>
+                        ARCHIVE STATUS: 6 MODULES COMPLETE
+                    </span>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant max-w-4xl">
+                    Membangun pondasi logika algoritma, pemahaman
+                    arsitektur komputer, dasar sistem operasi, dan
+                    pembuatan web statis semantik murni tanpa
+                    framework abstraksi.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+                <!-- Card 1 -->
+                <article
+                    class="bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all">
+                    <div>
+                        <div
+                            class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
+                            <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">MOD-X-01</span>
+                            <span
+                                class="px-2 py-0.5 bg-surface text-on-surface border border-on-background font-label-sm text-label-sm">TERDOKUMENTASI</span>
+                        </div>
+                        <div class="p-space-md">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined text-primary text-[24px]">terminal</span>
+                                <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">
+                                    Pemrograman Dasar
+                                </h3>
+                            </div>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                                Pondasi algoritma imperatif,
+                                penyusunan flowchart logika,
+                                deklarasi tipe data primitif,
+                                conditional switch/if-else, dan loop
+                                nesting.
+                            </p>
+                            <div
+                                class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Flowchart &amp; Logika
+                                    Pseudocode
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Python / C++ Syntax Syntax
+                                    Execution
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Nested Loop Array Manipulation
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">42 LAB TASKS</span>
+                        <button
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            BUKA MODUL
+                            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </article>
+                <!-- Card 2 -->
+                <article
+                    class="bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all">
+                    <div>
+                        <div
+                            class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
+                            <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">MOD-X-02</span>
+                            <span
+                                class="px-2 py-0.5 bg-surface text-on-surface border border-on-background font-label-sm text-label-sm">TERDOKUMENTASI</span>
+                        </div>
+                        <div class="p-space-md">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined text-tertiary text-[24px]">database</span>
+                                <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">
+                                    Basis Data Dasar
+                                </h3>
+                            </div>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                                Prinsip penyimpanan relasional
+                                entitas, pembuatan skema diagram
+                                Entity-Relationship (ERD), sintaks
+                                DDL create table, dan DML query
+                                data.
+                            </p>
+                            <div
+                                class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-tertiary font-bold">›</span>
+                                    Entity-Relationship Diagramming
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-tertiary font-bold">›</span>
+                                    DDL: CREATE, ALTER, DROP
+                                    Constraints
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-tertiary font-bold">›</span>
+                                    DML: SELECT, INSERT, UPDATE,
+                                    DELETE
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">28 QUERY LABS</span>
+                        <button
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            BUKA MODUL
+                            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </article>
+                <!-- Card 3 -->
+                <article
+                    class="bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all">
+                    <div>
+                        <div
+                            class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
+                            <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">MOD-X-03</span>
+                            <span
+                                class="px-2 py-0.5 bg-surface text-on-surface border border-on-background font-label-sm text-label-sm">TERDOKUMENTASI</span>
+                        </div>
+                        <div class="p-space-md">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined text-secondary text-[24px]">lan</span>
+                                <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">
+                                    Jaringan &amp; OS
+                                </h3>
+                            </div>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                                Struktur protokol TCP/IP, IP
+                                subnetting IPv4 kelas C, instalasi
+                                kernel Linux distro Debian/Ubuntu
+                                Server, dan administrasi CLI shell.
+                            </p>
+                            <div
+                                class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Subnetting CIDR &amp; Packet
+                                    Routing
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Linux Bash CLI &amp; Permission
+                                    Chmod
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Local LAMP/LEMP Stack Setup
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">19 CLI PROOFS</span>
+                        <button
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            BUKA MODUL
+                            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </article>
+                <!-- Card 4 -->
+                <article
+                    class="bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all">
+                    <div>
+                        <div
+                            class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
+                            <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">MOD-X-04</span>
+                            <span
+                                class="px-2 py-0.5 bg-surface text-on-surface border border-on-background font-label-sm text-label-sm">TERDOKUMENTASI</span>
+                        </div>
+                        <div class="p-space-md">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined text-primary text-[24px]">code</span>
+                                <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">
+                                    Pemrograman Web Dasar
+                                </h3>
+                            </div>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                                Struktur dokumen semantik HTML5,
+                                box-model CSS3, layout responsif
+                                Flexbox serta CSS Grid, dan
+                                manipulasi Vanilla JavaScript DOM.
+                            </p>
+                            <div
+                                class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Semantic HTML5 Tags &amp;
+                                    Accessibility
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Responsive Grid &amp; Flexbox
+                                    Alignment
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Event Listeners &amp; Query
+                                    Selector DOM
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">36 PAGES BUILT</span>
+                        <button
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            BUKA MODUL
+                            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </article>
+                <!-- Card 5 -->
+                <article
+                    class="bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all">
+                    <div>
+                        <div
+                            class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
+                            <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">MOD-X-05</span>
+                            <span
+                                class="px-2 py-0.5 bg-surface text-on-surface border border-on-background font-label-sm text-label-sm">TERDOKUMENTASI</span>
+                        </div>
+                        <div class="p-space-md">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined text-secondary text-[24px]">psychology</span>
+                                <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">
+                                    Komputasi &amp; Logika
+                                </h3>
+                            </div>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                                Aljabar Boolean, dekomposisi masalah
+                                kompleks, pemetaan pola (pattern
+                                recognition), abstraksi, dan
+                                evaluasi efisiensi algoritma
+                                sederhana.
+                            </p>
+                            <div
+                                class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Truth Tables &amp; Logic Gate
+                                    Mapping
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Algorithmic Complexity Basics
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Problem Decomposition Frameworks
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">15 LOGIC PAPERS</span>
+                        <button
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            BUKA MODUL
+                            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </article>
+                <!-- Card 6 -->
+                <article
+                    class="bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all">
+                    <div>
+                        <div
+                            class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
+                            <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">MOD-X-06</span>
+                            <span
+                                class="px-2 py-0.5 bg-surface text-on-surface border border-on-background font-label-sm text-label-sm">TERDOKUMENTASI</span>
+                        </div>
+                        <div class="p-space-md">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined text-tertiary text-[24px]">verified_user</span>
+                                <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">
+                                    Etika Profesi IT
+                                </h3>
+                            </div>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                                Peraturan Hak Kekayaan Intelektual
+                                (HAKI), lisensi open-source (MIT,
+                                GPL), standar keselamatan kerja IT
+                                (K3LH), serta prinsip Agile mindset.
+                            </p>
+                            <div
+                                class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-tertiary font-bold">›</span>
+                                    Open Source Licensing Matrix
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-tertiary font-bold">›</span>
+                                    Cyber Ethics &amp; UU ITE
+                                    Fundamentals
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-tertiary font-bold">›</span>
+                                    Agile Manifesto &amp; Standup
+                                    Rituals
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">8 ETHIC ESSAYS</span>
+                        <button
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            BUKA MODUL
+                            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- ================= SECTION KELAS XI ================= -->
+        <section class="curriculum-tier flex flex-col gap-space-lg" id="section-kelas-xi">
+            <div
+                class="bg-surface-container border-[3px] border-on-background shadow-[5px_5px_0px_#1c1b1b] p-space-md md:p-space-lg relative">
+                <div
+                    class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md border-b-[2px] border-on-background pb-space-md mb-space-md">
+                    <div class="flex flex-wrap items-center gap-space-sm">
+                        <span
+                            class="px-3 py-1 bg-secondary-container text-on-surface border-[2px] border-on-background font-label-sm text-label-sm font-bold uppercase shadow-[2px_2px_0px_#1c1b1b]">
+                            LEVEL 02 / DEVELOPMENT
+                        </span>
+                        <span class="font-headline-md text-headline-md uppercase tracking-tight text-on-surface">
+                            KELAS XI — PENGEMBANGAN WEB &amp;
+                            APLIKASI TERSTRUKTUR
+                        </span>
+                    </div>
+                    <span class="font-code-inline text-code-inline text-on-surface-variant flex items-center gap-1">
+                        <span class="material-symbols-outlined text-[16px]">account_tree</span>
+                        ARCHIVE STATUS: 6 MODULES COMPLETE
+                    </span>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant max-w-4xl">
+                    Pengembangan web dinamis berbasis PHP &amp;
+                    MySQL, paradigma Object-Oriented Programming
+                    (OOP), normalisasi data tingkat tinggi, kontrol
+                    versi tim Git/GitHub, dan UI/UX Wireframing
+                    Figma.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+                <!-- Card 1 -->
+                <article
+                    class="bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all">
+                    <div>
+                        <div
+                            class="p-space-sm border-b-[2px] border-on-background bg-secondary-fixed text-on-secondary-fixed flex items-center justify-between">
+                            <span class="font-label-sm text-label-sm font-bold uppercase">MOD-XI-01</span>
+                            <span
+                                class="px-2 py-0.5 bg-surface text-on-surface border border-on-background font-label-sm text-label-sm">TERDOKUMENTASI</span>
+                        </div>
+                        <div class="p-space-md">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined text-primary text-[24px]">data_object</span>
+                                <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">
+                                    Pemrograman OOP / PBO
+                                </h3>
+                            </div>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                                Penerapan 4 pilar OOP:
+                                Encapsulation, Inheritance,
+                                Polymorphism, dan Abstraction
+                                memakai bahasa PHP 8 dan Java
+                                console environment.
+                            </p>
+                            <div
+                                class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Class, Object, &amp; Constructor
+                                    Lifecycle
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Interface, Abstract Class &amp;
+                                    Polymorphism
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Encapsulation: Private /
+                                    Protected Scope
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">24 OOP MODELS</span>
+                        <button
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            BUKA MODUL
+                            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </article>
+                <!-- Card 2 -->
+                <article
+                    class="bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all">
+                    <div>
+                        <div
+                            class="p-space-sm border-b-[2px] border-on-background bg-secondary-fixed text-on-secondary-fixed flex items-center justify-between">
+                            <span class="font-label-sm text-label-sm font-bold uppercase">MOD-XI-02</span>
+                            <span
+                                class="px-2 py-0.5 bg-surface text-on-surface border border-on-background font-label-sm text-label-sm">TERDOKUMENTASI</span>
+                        </div>
+                        <div class="p-space-md">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined text-tertiary text-[24px]">storage</span>
+                                <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">
+                                    RDBMS &amp; Normalisasi
+                                </h3>
+                            </div>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                                Perancangan skema relasi bebas
+                                anomali dengan teknik 1NF, 2NF, 3NF,
+                                multi-table JOINs, MySQL Triggers,
+                                Stored Procedure, &amp; Index
+                                optimization.
+                            </p>
+                            <div
+                                class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Database Normalization (1NF
+                                    hingga BCNF)
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Multi-Table INNER / LEFT / CROSS
+                                    JOIN
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Triggers, Routines &amp;
+                                    Transaction Rollback
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">31 COMPLEX
+                            QUERIES</span>
+                        <button
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            BUKA MODUL
+                            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </article>
+                <!-- Card 3 -->
+                <article
+                    class="bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all">
+                    <div>
+                        <div
+                            class="p-space-sm border-b-[2px] border-on-background bg-secondary-fixed text-on-secondary-fixed flex items-center justify-between">
+                            <span class="font-label-sm text-label-sm font-bold uppercase">MOD-XI-03</span>
+                            <span
+                                class="px-2 py-0.5 bg-surface text-on-surface border border-on-background font-label-sm text-label-sm">TERDOKUMENTASI</span>
+                        </div>
+                        <div class="p-space-md">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined text-primary text-[24px]">dns</span>
+                                <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">
+                                    Web Dinamis PHP MVC
+                                </h3>
+                            </div>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                                Pondasi arsitektur
+                                Model-View-Controller murni tanpa
+                                framework eksternal, auth session
+                                cookies aman, CSRF protection, dan
+                                PDO statements.
+                            </p>
+                            <div
+                                class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Custom Router &amp; Controller
+                                    Dispatching
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    PDO Prepared Statements (SQLi
+                                    Immunity)
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Session Hijacking &amp; XSS
+                                    Sanitization
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">14 APP MODULES</span>
+                        <button
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            BUKA MODUL
+                            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </article>
+                <!-- Card 4 -->
+                <article
+                    class="bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all">
+                    <div>
+                        <div
+                            class="p-space-sm border-b-[2px] border-on-background bg-secondary-fixed text-on-secondary-fixed flex items-center justify-between">
+                            <span class="font-label-sm text-label-sm font-bold uppercase">MOD-XI-04</span>
+                            <span
+                                class="px-2 py-0.5 bg-surface text-on-surface border border-on-background font-label-sm text-label-sm">TERDOKUMENTASI</span>
+                        </div>
+                        <div class="p-space-md">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined text-primary text-[24px]">design_services</span>
+                                <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">
+                                    UI/UX &amp; Prototyping
+                                </h3>
+                            </div>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                                Metodologi Design Thinking, riset
+                                kebutuhan pengguna, pembuatan
+                                wireframe lo-fi ke hi-fi prototype
+                                di Figma, dan pengujian kegunaan
+                                sistem.
+                            </p>
+                            <div
+                                class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    User Persona &amp; Empathy
+                                    Mapping
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Auto-Layout &amp; Tokenized
+                                    Design System
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Usability Heuristics Nielsen
+                                    Testing
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">9 FIGMA FLOWS</span>
+                        <button
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            BUKA MODUL
+                            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </article>
+                <!-- Card 5 -->
+                <article
+                    class="bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all">
+                    <div>
+                        <div
+                            class="p-space-sm border-b-[2px] border-on-background bg-secondary-fixed text-on-secondary-fixed flex items-center justify-between">
+                            <span class="font-label-sm text-label-sm font-bold uppercase">MOD-XI-05</span>
+                            <span
+                                class="px-2 py-0.5 bg-surface text-on-surface border border-on-background font-label-sm text-label-sm">TERDOKUMENTASI</span>
+                        </div>
+                        <div class="p-space-md">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined text-tertiary text-[24px]">fork_right</span>
+                                <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">
+                                    Git &amp; Team Workflow
+                                </h3>
+                            </div>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                                Manajemen source code berbasis
+                                distributed VCS Git, branching
+                                strategies (Gitflow), code review PR
+                                di GitHub, dan penyelesaian konflik
+                                merge.
+                            </p>
+                            <div
+                                class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Git CLI Rebase, Cherry-Pick
+                                    &amp; Stash
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Branch Protection &amp; Peer PR
+                                    Approvals
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Merge Conflict Resolution
+                                    Strategies
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">112 COMMITS</span>
+                        <button
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            BUKA MODUL
+                            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </article>
+                <!-- Card 6 -->
+                <article
+                    class="bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all">
+                    <div>
+                        <div
+                            class="p-space-sm border-b-[2px] border-on-background bg-secondary-fixed text-on-secondary-fixed flex items-center justify-between">
+                            <span class="font-label-sm text-label-sm font-bold uppercase">MOD-XI-06</span>
+                            <span
+                                class="px-2 py-0.5 bg-surface text-on-surface border border-on-background font-label-sm text-label-sm">TERDOKUMENTASI</span>
+                        </div>
+                        <div class="p-space-md">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined text-primary text-[24px]">point_of_sale</span>
+                                <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">
+                                    Proyek Mini Tim (POS)
+                                </h3>
+                            </div>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                                Studi kasus riil pembuatan Point of
+                                Sale (POS) dan sistem manajemen
+                                inventaris barang: multi-role
+                                authentication, print invoice, dan
+                                export PDF.
+                            </p>
+                            <div
+                                class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Multi-Tier Roles (Admin, Kasir,
+                                    Gudang)
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Dynamic Cart &amp; Stock
+                                    Auto-Deduction
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-secondary font-bold">›</span>
+                                    Thermal Receipt &amp; PDF Report
+                                    Engine
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">1 INTEGRATED APP</span>
+                        <button
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            BUKA MODUL
+                            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- ================= SECTION KELAS XII ================= -->
+        <section class="curriculum-tier flex flex-col gap-space-lg" id="section-kelas-xii">
+            <div
+                class="bg-primary-container text-on-surface border-[4px] border-on-background shadow-[6px_6px_0px_#1c1b1b] p-space-md md:p-space-lg relative">
+                <div
+                    class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md border-b-[3px] border-on-background pb-space-md mb-space-md">
+                    <div class="flex flex-wrap items-center gap-space-sm">
+                        <span
+                            class="px-3 py-1 bg-surface-container-lowest text-on-surface border-[2px] border-on-background font-label-sm text-label-sm font-bold uppercase shadow-[2px_2px_0px_#1c1b1b]">
+                            LEVEL 03 / ADVANCED (CURRICULUM INTI)
+                        </span>
+                        <span class="font-headline-md text-headline-md uppercase tracking-tight text-on-surface">
+                            KELAS XII — PEMROGRAMAN WEB LANJUTAN
+                            &amp; FULLSTACK
+                        </span>
+                    </div>
+                    <span
+                        class="font-code-inline text-code-inline text-on-surface bg-surface-container-lowest px-3 py-1 border-[2px] border-on-background font-bold flex items-center gap-1 shadow-[2px_2px_0px_#1c1b1b]">
+                        <span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+                        INDUSTRY-STANDARD CAPSTONE
+                    </span>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface max-w-4xl font-medium">
+                    Fokus pada standar rekayasa industri teknologi:
+                    Backend MVC Framework Laravel 11, Reactive
+                    Single Page Application (React.js), JWT /
+                    Sanctum API Gateways, Automated CI/CD Pipelines,
+                    dan Capstone Project berskala produksi.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+                <!-- Card 1 -->
+                <article
+                    class="bg-surface-container-lowest border-[4px] border-on-background shadow-[6px_6px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[8px_8px_0px_#1c1b1b] transition-all">
+                    <div>
+                        <div
+                            class="p-space-sm border-b-[3px] border-on-background bg-on-background text-inverse-on-surface flex items-center justify-between">
+                            <span
+                                class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-primary-fixed">MOD-XII-01
+                                • CORE</span>
+                            <span
+                                class="px-2 py-0.5 bg-primary-container text-on-surface border border-on-background font-label-sm text-label-sm font-bold">AKTIF</span>
+                        </div>
+                        <div class="p-space-md">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined text-primary text-[28px]">architecture</span>
+                                <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface font-bold">
+                                    Web Lanjutan (SPA)
+                                </h3>
+                            </div>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                                Transisi dari MPA monolithic klasik
+                                menuju Single Page Architecture
+                                (SPA). Build engine Vite modern,
+                                client-side routing, serta
+                                arsitektur state caching.
+                            </p>
+                            <div
+                                class="space-y-1.5 border-t-[2px] border-on-background pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Monolith vs Decoupled
+                                    Micro-Frontend
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Vite Build Optimizer &amp;
+                                    Module Bundler
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Asynchronous State Lifecycle
+                                    Hydration
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="p-space-md border-t-[3px] border-on-background bg-surface-container-high flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase font-bold text-on-surface">ATP BAB 01</span>
+                        <button
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-primary-container text-on-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            PELAJARI
+                            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </article>
+                <!-- Card 2 -->
+                <article
+                    class="bg-surface-container-lowest border-[4px] border-on-background shadow-[6px_6px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[8px_8px_0px_#1c1b1b] transition-all">
+                    <div>
+                        <div
+                            class="p-space-sm border-b-[3px] border-on-background bg-on-background text-inverse-on-surface flex items-center justify-between">
+                            <span
+                                class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-primary-fixed">MOD-XII-02
+                                • BACKEND</span>
+                            <span
+                                class="px-2 py-0.5 bg-primary-container text-on-surface border border-on-background font-label-sm text-label-sm font-bold">AKTIF</span>
+                        </div>
+                        <div class="p-space-md">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined text-primary text-[28px]">dataset</span>
+                                <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface font-bold">
+                                    Laravel 11 Backend
+                                </h3>
+                            </div>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                                Penyusunan enterprise backend dengan
+                                framework PHP Laravel 11: Route
+                                definitions, Controller resource,
+                                Eloquent ORM, DB Migrations, dan
+                                Seeders.
+                            </p>
+                            <div
+                                class="space-y-1.5 border-t-[2px] border-on-background pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Schema Blueprint Migrations
+                                    &amp; Seeders
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Eloquent ORM Relationships (1:1,
+                                    1:N, N:M)
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Form Request Validation &amp;
+                                    Middleware
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="p-space-md border-t-[3px] border-on-background bg-surface-container-high flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase font-bold text-on-surface">ATP BAB 02</span>
+                        <button
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-primary-container text-on-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            PELAJARI
+                            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </article>
+                <!-- Card 3 -->
+                <article
+                    class="bg-surface-container-lowest border-[4px] border-on-background shadow-[6px_6px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[8px_8px_0px_#1c1b1b] transition-all">
+                    <div>
+                        <div
+                            class="p-space-sm border-b-[3px] border-on-background bg-on-background text-inverse-on-surface flex items-center justify-between">
+                            <span
+                                class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-primary-fixed">MOD-XII-03
+                                • FRONTEND</span>
+                            <span
+                                class="px-2 py-0.5 bg-primary-container text-on-surface border border-on-background font-label-sm text-label-sm font-bold">AKTIF</span>
+                        </div>
+                        <div class="p-space-md">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined text-primary text-[28px]">devices</span>
+                                <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface font-bold">
+                                    React.js &amp; Tailwind
+                                </h3>
+                            </div>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                                Pondasi reactive UI dengan library
+                                React: JSX, functional components,
+                                useState, useEffect, context API,
+                                serta penataan gaya atomic Tailwind
+                                CSS.
+                            </p>
+                            <div
+                                class="space-y-1.5 border-t-[2px] border-on-background pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Component Hierarchy &amp; Custom
+                                    Hooks
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Global State Context &amp;
+                                    Reducer Patterns
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Atomic Styling with Tailwind CSS
+                                    Grid
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="p-space-md border-t-[3px] border-on-background bg-surface-container-high flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase font-bold text-on-surface">ATP BAB 03</span>
+                        <button
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-primary-container text-on-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            PELAJARI
+                            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </article>
+                <!-- Card 4 -->
+                <article
+                    class="bg-surface-container-lowest border-[4px] border-on-background shadow-[6px_6px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[8px_8px_0px_#1c1b1b] transition-all">
+                    <div>
+                        <div
+                            class="p-space-sm border-b-[3px] border-on-background bg-on-background text-inverse-on-surface flex items-center justify-between">
+                            <span
+                                class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-primary-fixed">MOD-XII-04
+                                • SECURITY</span>
+                            <span
+                                class="px-2 py-0.5 bg-primary-container text-on-surface border border-on-background font-label-sm text-label-sm font-bold">AKTIF</span>
+                        </div>
+                        <div class="p-space-md">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined text-primary text-[28px]">vpn_key</span>
+                                <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface font-bold">
+                                    RESTful API &amp; Auth
+                                </h3>
+                            </div>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                                Perancangan endpoint API stateless:
+                                HTTP verbs standard, JSON resources
+                                response standard, token bearer
+                                Sanctum/JWT, dan Postman automated
+                                tests.
+                            </p>
+                            <div
+                                class="space-y-1.5 border-t-[2px] border-on-background pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    RESTful Standards &amp; HTTP
+                                    Status Codes
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Laravel Sanctum Token
+                                    Authorization
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Postman Collection Tests &amp;
+                                    CORS Config
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="p-space-md border-t-[3px] border-on-background bg-surface-container-high flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase font-bold text-on-surface">ATP BAB 04</span>
+                        <button
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-primary-container text-on-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            PELAJARI
+                            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </article>
+                <!-- Card 5 -->
+                <article
+                    class="bg-surface-container-lowest border-[4px] border-on-background shadow-[6px_6px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[8px_8px_0px_#1c1b1b] transition-all">
+                    <div>
+                        <div
+                            class="p-space-sm border-b-[3px] border-on-background bg-on-background text-inverse-on-surface flex items-center justify-between">
+                            <span
+                                class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-primary-fixed">MOD-XII-05
+                                • CLOUD</span>
+                            <span
+                                class="px-2 py-0.5 bg-primary-container text-on-surface border border-on-background font-label-sm text-label-sm font-bold">AKTIF</span>
+                        </div>
+                        <div class="p-space-md">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined text-primary text-[28px]">cloud_sync</span>
+                                <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface font-bold">
+                                    CI/CD &amp; Deployment
+                                </h3>
+                            </div>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                                Otomatisasi deployment pipeline
+                                menggunakan GitHub Actions,
+                                containerization Docker ringan,
+                                deployment frontend ke Vercel dan
+                                backend ke Railway/VPS.
+                            </p>
+                            <div
+                                class="space-y-1.5 border-t-[2px] border-on-background pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    GitHub Actions Build &amp; Test
+                                    YAML Flow
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Production Environment Variables
+                                    (.env)
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Nginx Reverse Proxy &amp; SSL
+                                    Certificates
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="p-space-md border-t-[3px] border-on-background bg-surface-container-high flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase font-bold text-on-surface">ATP BAB 05</span>
+                        <button
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-primary-container text-on-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            PELAJARI
+                            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </article>
+                <!-- Card 6 -->
+                <article
+                    class="bg-surface-container-lowest border-[4px] border-on-background shadow-[6px_6px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[8px_8px_0px_#1c1b1b] transition-all">
+                    <div>
+                        <div
+                            class="p-space-sm border-b-[3px] border-on-background bg-on-background text-inverse-on-surface flex items-center justify-between">
+                            <span
+                                class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-secondary-fixed">MOD-XII-06
+                                • CAPSTONE</span>
+                            <span
+                                class="px-2 py-0.5 bg-secondary-container text-on-surface border border-on-background font-label-sm text-label-sm font-bold">FINAL</span>
+                        </div>
+                        <div class="p-space-md">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="material-symbols-outlined text-primary text-[28px]">rocket_launch</span>
+                                <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface font-bold">
+                                    Capstone Fullstack Project
+                                </h3>
+                            </div>
+                            <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                                Proyek akhir kelulusan kejuruan:
+                                Membangun sistem berskala nyata
+                                lengkap dengan dokumentasi teknis,
+                                user manual, automated testing, dan
+                                presentasi showcase.
+                            </p>
+                            <div
+                                class="space-y-1.5 border-t-[2px] border-on-background pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    End-to-End System Integration
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Technical Whitepaper &amp; API
+                                    Docs
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span class="text-primary font-bold">›</span>
+                                    Industry Partner Defense &amp;
+                                    Showcase
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="p-space-md border-t-[3px] border-on-background bg-surface-container-high flex items-center justify-between">
+                        <span class="font-label-sm text-label-sm uppercase font-bold text-on-surface">PORTFOLIO SHIP</span>
+                        <button
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-secondary-container text-on-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-primary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            PORTFOLIO
+                            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                        </button>
+                    </div>
+                </article>
+            </div>
+            <!-- Prominent Summary Banner -->
+            <div
+                class="bg-surface border-[4px] border-on-background shadow-[8px_8px_0px_#1c1b1b] p-space-md md:p-space-lg flex flex-col md:flex-row items-center justify-between gap-space-lg mt-space-md">
+                <div class="flex items-start gap-space-md">
+                    <div
+                        class="w-14 h-14 bg-secondary-container border-[3px] border-on-background shadow-[3px_3px_0px_#1c1b1b] flex items-center justify-center shrink-0">
+                        <span class="material-symbols-outlined text-[32px] text-on-surface">menu_book</span>
+                    </div>
+                    <div>
+                        <div class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">
+                            MODUL RESMI KELAS XII
+                        </div>
+                        <h4 class="font-headline-sm text-headline-sm uppercase text-on-surface font-bold">
+                            INGIN MENGEKSPLORASI DETAIL ALUR TUJUAN
+                            PEMBELAJARAN (ATP)?
+                        </h4>
+                        <p class="font-body-sm text-body-sm text-on-surface-variant max-w-xl">
+                            Halaman Materi ATP mengupas tuntas 5
+                            pilar kurikulum inti Kelas XII lengkap
+                            dengan kode implementasi, diagram
+                            arsitektur interaktif, dan file
+                            referensi tugas.
+                        </p>
+                    </div>
+                </div>
+                <a class="w-full md:w-auto font-headline-sm text-label-lg uppercase bg-primary-container text-on-surface border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] px-6 py-4 hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center justify-center gap-space-xs text-center shrink-0"
+                    data-path="materi-atp" href="#">
+                    LIHAT 5 MATERI UTAMA ATP →
+                </a>
+            </div>
+        </section>
+        <!-- Technical Statistics Matrix -->
+        <section
+            class="border-[3px] border-on-background bg-surface-container-low p-space-md shadow-[4px_4px_0px_#1c1b1b]">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-space-md text-center">
+                <div class="p-space-sm bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b]">
+                    <span class="font-headline-lg text-headline-lg text-primary font-bold block">03</span>
+                    <span class="font-label-sm text-label-sm uppercase text-on-surface-variant font-bold">TAHUN LEVEL
+                        TINGKAT</span>
+                </div>
+                <div class="p-space-sm bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b]">
+                    <span class="font-headline-lg text-headline-lg text-on-surface font-bold block">18</span>
+                    <span class="font-label-sm text-label-sm uppercase text-on-surface-variant font-bold">MODUL
+                        PEMBELAJARAN</span>
+                </div>
+                <div class="p-space-sm bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b]">
+                    <span class="font-headline-lg text-headline-lg text-tertiary font-bold block">100%</span>
+                    <span class="font-label-sm text-label-sm uppercase text-on-surface-variant font-bold">DOKUMENTASI KODE
+                        LENGKAP</span>
+                </div>
+                <div class="p-space-sm bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b]">
+                    <span class="font-headline-lg text-headline-lg text-secondary font-bold block">05</span>
+                    <span class="font-label-sm text-label-sm uppercase text-on-surface-variant font-bold">PILAR INTI ATP
+                        RESMI</span>
+                </div>
+            </div>
+        </section>
+    </div>
+@endsection
+
+@section('script')
+@endsection
