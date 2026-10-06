@@ -609,7 +609,7 @@
                 <!-- ===== A1 – Pendidikan Agama ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all"
                     data-kelas="kelas-xi" data-subject="A1 – Pendidikan Agama dan Budi Pekerti (Kelas XI)"
-                    data-keywords="agama budi pekerti akhlak moral etika spiritual karakter kelas 11">
+                    data-keywords="agama budi pekerti akhlak moral etika spiritual karakter kelas 11 ali imran ar-rahman ulul albab iptek berpikir kritis iman janji syukur lisan aib perkelahian miras narkoba dakwah khutbah tablig ulama hasyim asyari buya hamka quraish shihab">
                     <div>
                         <div class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">A1</span>
@@ -621,19 +621,19 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">Pend. Agama &amp; Budi Pekerti</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Pendalaman akhlak, etika profesional, toleransi, dan pengamalan nilai keagamaan di dunia kerja.
+                                PAI &amp; Budi Pekerti Kelas XI SMK — 5 bab lengkap dari Berpikir Kritis &amp; IPTEK, Cabang Iman, Menghindari Miras/Narkoba, Adab Dakwah, hingga Meneladani Ulama Indonesia.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Etika Profesi</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Toleransi Beragama</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Akhlak di Dunia Kerja</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Q.S. Ali 'Imrān &amp; ar-Rahmān: Ulul Albab</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Cabang Iman: Janji, Syukur, Lisan, Aib</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Dakwah, Khutbah, Tablig + Ulama Indonesia</div>
                             </div>
                         </div>
                     </div>
                     <div class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
-                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">MAPEL UMUM</span>
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">5 BAB • KELAS XI</span>
                         <a href="{{ route('modul.kelas11.pai') }}"
-                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-primary-container border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
                             BUKA MODUL <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
                         </a>
                     </div>
@@ -642,7 +642,7 @@
                 <!-- ===== A2 – PPKn ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all"
                     data-kelas="kelas-xi" data-subject="A2 – Pendidikan Pancasila dan Kewarganegaraan (PPKn) (Kelas XI)"
-                    data-keywords="ppkn pancasila kewarganegaraan nkri uud ham demokrasi kelas 11">
+                    data-keywords="ppkn pancasila kewarganegaraan nkri uud 1945 konstitusi ham demokrasi kelas 11 piagam jakarta moerdiono nilai dasar instrumental praksis norma kepatuhan hukum kuhp hak kewajiban">
                     <div>
                         <div class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">A2</span>
@@ -654,19 +654,19 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">PPKn</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Dinamika demokrasi, sistem hukum, HAM, dan geopolitik Indonesia dalam perspektif global.
+                                PPKn Kelas XI SMK — 2 bab lengkap dari Sejarah &amp; Implementasi Pancasila hingga UUD NRI 1945, Norma, Hukum, dan Hak-Kewajiban Warga Negara.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Dinamika Demokrasi</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Sistem Hukum &amp; HAM</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Geopolitik Indonesia</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Bab 1: Pancasila &amp; Peta Pemikiran Pendiri</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Bab 2: UUD 1945, Norma &amp; Hukum</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Piagam Jakarta, Nilai Pancasila &amp; HAM</div>
                             </div>
                         </div>
                     </div>
                     <div class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
-                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">MAPEL UMUM</span>
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">2 BAB • KELAS XI</span>
                         <a href="{{ route('modul.kelas11.ppkn') }}"
-                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-primary-container border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
                             BUKA MODUL <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
                         </a>
                     </div>
@@ -675,7 +675,7 @@
                 <!-- ===== A3 – Bahasa Indonesia ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all"
                     data-kelas="kelas-xi" data-subject="A3 – Bahasa Indonesia (Kelas XI)"
-                    data-keywords="bahasa indonesia literasi teks prosedur eksplanasi ceramah karya ilmiah kelas 11">
+                    data-keywords="bahasa indonesia literasi teks prosedur eksplanasi ceramah karya ilmiah kelas 11 argumentasi persuasi fakta opini ide pokok poster infografis berita adiksimba piramida terbalik vlog cerpen sejarah intrinsik ekstrinsik resensi">
                     <div>
                         <div class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">A3</span>
@@ -687,19 +687,19 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">Bahasa Indonesia</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Teks prosedur, eksplanasi, ceramah, dan penyusunan karya ilmiah dengan penalaran kritis.
+                                Bahasa Indonesia Kelas XI SMK — 3 bab lengkap dari Teks Argumentasi &amp; Persuasi, Berita Inovasi, hingga Cerpen Sejarah dan Resensi.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Teks Prosedur &amp; Eksplanasi</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Teks Ceramah</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Karya Ilmiah</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Bab 1: Argumentasi, Fakta-Opini, Persuasi, Poster</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Bab 2: Berita, ADIKSIMBA, Piramida Terbalik, Vlog</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Bab 3: Cerpen, Unsur Intrinsik-Ekstrinsik, Resensi</div>
                             </div>
                         </div>
                     </div>
                     <div class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
-                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">MAPEL UMUM</span>
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">3 BAB • KELAS XI</span>
                         <a href="{{ route('modul.kelas11.bindo') }}"
-                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-primary-container border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
                             BUKA MODUL <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
                         </a>
                     </div>
@@ -708,7 +708,7 @@
                 <!-- ===== A4 – PJOK ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all"
                     data-kelas="kelas-xi" data-subject="A4 – Pendidikan Jasmani, Olah Raga & Kesehatan (PJOK) (Kelas XI)"
-                    data-keywords="pjok olahraga jasmani kesehatan kebugaran bola atletik beladiri kelas 11">
+                    data-keywords="pjok olahraga jasmani kesehatan kebugaran bola sepak bola basket voli bulu tangkis atletik sprint estafet senam lantai senam irama narkoba bleep test tkji kelas 11">
                     <div>
                         <div class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">A4</span>
@@ -720,19 +720,19 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">PJOK</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Kebugaran lanjutan, olahraga tim, beladiri, dan penerapan pola hidup sehat aktif.
+                                PJOK Kelas XI SMK — 6 topik lengkap dari Permainan Bola Besar, Bola Net, Atletik (Sprint &amp; Estafet), Kebugaran Jasmani, Senam Lantai, hingga Budaya Hidup Sehat.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Kebugaran Lanjutan</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Olahraga Tim</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Beladiri &amp; Senam</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Sepak Bola, Basket, Voli, Bulu Tangkis</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Sprint, Estafet, Kebugaran, Senam Lantai</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> 6 Topik • Bleep Test &amp; Bahaya Narkoba</div>
                             </div>
                         </div>
                     </div>
                     <div class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
-                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">MAPEL UMUM</span>
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">6 TOPIK • KELAS XI</span>
                         <a href="{{ route('modul.kelas11.pjok') }}"
-                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-primary-container border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
                             BUKA MODUL <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
                         </a>
                     </div>
@@ -741,7 +741,7 @@
                 <!-- ===== A7 – Bahasa Jawa ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all"
                     data-kelas="kelas-xi" data-subject="A7 – Bahasa Jawa (Muatan Lokal) (Kelas XI)"
-                    data-keywords="bahasa jawa muatan lokal aksara jawa unggah ungguh budaya jawa tembang kelas 11">
+                    data-keywords="bahasa jawa muatan lokal aksara jawa unggah ungguh budaya jawa tembang macapat pangkur gambuh dhandhanggula pocung novel jawa sesorah pidato aksara rekan murda kelas 11">
                     <div>
                         <div class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">A7</span>
@@ -753,19 +753,19 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">Bahasa Jawa</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Sastra Jawa klasik &amp; modern, pidato adat, dan pelestarian budaya Jawa di era digital.
+                                Bahasa Jawa Kelas XI SMK — 5 materi lengkap dari Tembang Macapat, Novel Jawa Modern, Sesorah, Teks Eksposisi &amp; Unggah-Ungguh, hingga Aksara Rekan &amp; Murda.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Sastra Jawa Klasik</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Pidato Adat</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Budaya Jawa Digital</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Macapat: Guru Gatra, Wilangan, Lagu</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Novel Jawa, Sesorah, 4W Patrap</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> 5 Materi • Aksara Rekan &amp; Murda</div>
                             </div>
                         </div>
                     </div>
                     <div class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
-                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">MUATAN LOKAL</span>
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">5 MATERI • KELAS XI</span>
                         <a href="{{ route('modul.kelas11.bjawa') }}"
-                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-primary-container border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
                             BUKA MODUL <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
                         </a>
                     </div>
@@ -774,7 +774,7 @@
                 <!-- ===== B1 – Matematika ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all"
                     data-kelas="kelas-xi" data-subject="B1 – Matematika (Kelas XI)"
-                    data-keywords="matematika aljabar trigonometri logika vektor statistik limit turunan kelas 11">
+                    data-keywords="matematika aljabar trigonometri logika vektor statistik limit turunan kelas 11 komposisi fungsi invers lingkaran garis singgung statistika scatter plot regresi korelasi pearson sudut rangkap dot product proyeksi ortogonal">
                     <div>
                         <div class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">B1</span>
@@ -786,19 +786,19 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">Matematika</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Limit fungsi, turunan, matriks, barisan-deret, dan penerapannya dalam pemecahan masalah.
+                                Matematika Kelas XI SMK — 6 bab lengkap dari Komposisi Fungsi &amp; Invers, Lingkaran, Garis Singgung, Statistika, Trigonometri Lanjutan, hingga Limit Fungsi Aljabar.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Limit &amp; Turunan</div>
-                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Matriks</div>
-                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Barisan &amp; Deret</div>
+                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Semester 1: Fungsi, Lingkaran</div>
+                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Semester 2: Garis Singgung, Statistika, Limit, Trigonometri</div>
+                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> 6 Bab • Rumus Lengkap + Contoh Soal</div>
                             </div>
                         </div>
                     </div>
                     <div class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
-                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">KELOMPOK B</span>
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">6 BAB • KELAS XI</span>
                         <a href="{{ route('modul.kelas11.math') }}"
-                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-primary-container border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
                             BUKA MODUL <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
                         </a>
                     </div>
@@ -807,7 +807,7 @@
                 <!-- ===== B2 – Bahasa Inggris ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all"
                     data-kelas="kelas-xi" data-subject="B2 – Bahasa Inggris (Kelas XI)"
-                    data-keywords="bahasa inggris english reading writing listening speaking grammar analytical exposition kelas 11">
+                    data-keywords="bahasa inggris english reading writing listening speaking grammar analytical exposition kelas 11 digital literacy identity opinion subject question present tense environment pollution suggestion adjective connective healthy lifestyle procedure biography recount money management needs wants budget saving critical argument">
                     <div>
                         <div class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">B2</span>
@@ -819,19 +819,19 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">Bahasa Inggris</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Analytical exposition, hortatory, dan English for specific purposes (technical writing).
+                                Bahasa Inggris Kelas XI SMK — 5 unit lengkap dari Digital Literacy, Lingkungan, Gaya Hidup Sehat, Environmental Figures, hingga Money Management.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Analytical Exposition</div>
-                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Hortatory Exposition</div>
-                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Technical Writing</div>
+                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Semester 1: Digital Literacy, Environment, Healthy Life</div>
+                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Semester 2: Environmental Figures, Money Management</div>
+                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> 5 Unit • Grammar, Vocabulary, Text Types</div>
                             </div>
                         </div>
                     </div>
                     <div class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
-                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">KELOMPOK B</span>
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">5 UNIT • KELAS XI</span>
                         <a href="{{ route('modul.kelas11.binggris') }}"
-                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-primary-container border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
                             BUKA MODUL <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
                         </a>
                     </div>
