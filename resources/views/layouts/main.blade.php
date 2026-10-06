@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="web_standard" name="shell-type" />
-    <title>VEKTOR RPL.DEV - Portal Pembelajaran RPL</title>
+    <title>@yield('title', 'VEKTOR RPL.DEV - Portal Pembelajaran RPL')</title>
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
     <link
@@ -270,9 +270,9 @@
                             : 'bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface' }}"
                     data-path="home" href="{{ route('home') }}">HOME</a>
 
-                <a aria-current="{{ request()->routeIs('pembelajaran') ? 'page' : 'false' }}"
+                <a aria-current="{{ request()->routeIs('pembelajaran', 'modul.*') ? 'page' : 'false' }}"
                     class="font-label-md text-label-md uppercase px-3 py-2 border-[2px] border-on-background transition-all
-                        {{ request()->routeIs('pembelajaran')
+                        {{ request()->routeIs('pembelajaran', 'modul.*')
                             ? 'bg-secondary-container text-on-surface shadow-[2px_2px_0px_#1c1b1b]'
                             : 'bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface' }}"
                     data-path="pembelajaran" href="{{ route('pembelajaran') }}">PEMBELAJARAN</a>
@@ -363,9 +363,9 @@
                                 : 'bg-surface-container-lowest text-on-surface hover:bg-secondary-container' }}"
                         data-path="home" href="{{ route('home') }}">HOME</a>
 
-                    <a aria-current="{{ request()->routeIs('pembelajaran') ? 'page' : 'false' }}"
+                    <a aria-current="{{ request()->routeIs('pembelajaran', 'modul.*') ? 'page' : 'false' }}"
                         class="font-label-sm text-label-sm uppercase px-3 py-1.5 border-[2px] border-on-background transition-colors shadow-[2px_2px_0px_#1c1b1b]
-                            {{ request()->routeIs('pembelajaran')
+                            {{ request()->routeIs('pembelajaran', 'modul.*')
                                 ? 'bg-secondary-container text-on-surface'
                                 : 'bg-surface-container-lowest text-on-surface hover:bg-secondary-container' }}"
                         data-path="pembelajaran" href="{{ route('pembelajaran') }}">PEMBELAJARAN</a>
