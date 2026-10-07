@@ -840,7 +840,7 @@
                 <!-- ===== R3 – KK Pemrograman Basis Teks, Grafis & Multimedia ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all ring-2 ring-secondary ring-offset-2"
                     data-kelas="kelas-xi" data-subject="R3 – KK Pemrograman Basis Teks, Grafis & Multimedia"
-                    data-keywords="r3 multimedia grafis teks pemrograman c++ python manipulasi gambar audio video animasi">
+                    data-keywords="r3 oop gui multimedia pemrograman berorientasi objek class object inheritance encapsulation polymorphism abstraction uml class diagram tkinter swing event-driven audio video grafis project based learning">
                     <div>
                         <div class="p-space-sm border-b-[2px] border-on-background bg-secondary-container flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">R3</span>
@@ -852,12 +852,13 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">Pemrograman Teks, Grafis &amp; Multimedia</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Manipulasi teks, grafis 2D, audio, dan video melalui pemrograman console &amp; GUI.
+                                Menguasai OOP, GUI, pengolahan grafis, audio, video, serta membangun aplikasi multimedia interaktif berbasis project.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Manipulasi Teks &amp; String</div>
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Grafis 2D &amp; Canvas</div>
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Audio &amp; Video Processing</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> OOP &amp; Pemodelan Perangkat Lunak</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> GUI &amp; Event-Driven Programming</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Grafis, Audio &amp; Video Processing</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Project-Based Learning (Aplikasi Multimedia)</div>
                             </div>
                         </div>
                     </div>
@@ -873,7 +874,7 @@
                 <!-- ===== R4 – KK Pemrograman Web ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all ring-2 ring-secondary ring-offset-2"
                     data-kelas="kelas-xi" data-subject="R4 – KK Pemrograman Web"
-                    data-keywords="r4 pemrograman web php mysql laravel codeigniter html css javascript frontend backend">
+                    data-keywords="r4 pemrograman web php mysql laravel codeigniter laragon composer mvc eloquent migration seeder api rest json http axios postman authentication middleware routing crud frontend backend">
                     <div>
                         <div class="p-space-sm border-b-[2px] border-on-background bg-secondary-container flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">R4</span>
@@ -885,12 +886,13 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">Pemrograman Web</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Pengembangan web dinamis: HTML, CSS, JS, PHP, MySQL, dan framework MVC dasar.
+                                Membangun aplikasi web modern end-to-end: dari HTML/CSS/JS hingga REST API dengan Laravel &amp; MySQL.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> HTML, CSS &amp; JavaScript</div>
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> PHP &amp; MySQL</div>
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Framework MVC Dasar</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Dasar Web &amp; Local Server (Laragon)</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> PHP, Composer &amp; Framework MVC</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> CodeIgniter &amp; Laravel (Eloquent, Migration)</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> REST API, JSON, Auth &amp; MySQL</div>
                             </div>
                         </div>
                     </div>
@@ -906,7 +908,7 @@
                 <!-- ===== R5 – KK Pemrograman Perangkat Bergerak ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all ring-2 ring-secondary ring-offset-2"
                     data-kelas="kelas-xi" data-subject="R5 – KK Pemrograman Perangkat Bergerak"
-                    data-keywords="r5 mobile pemrograman perangkat bergerak android flutter react native kotlin dart">
+                    data-keywords="r5 mobile pemrograman perangkat bergerak android ios flutter react native kotlin dart widget stateless stateful navigator state management sqlite shared preferences rest api authentication multimedia deployment apk">
                     <div>
                         <div class="p-space-sm border-b-[2px] border-on-background bg-secondary-container flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">R5</span>
@@ -918,12 +920,14 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">Pemrograman Perangkat Bergerak</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Pengembangan aplikasi mobile Android/iOS: UI native, state management, dan API integration.
+                                Bangun aplikasi Android/iOS dengan Flutter: UI widget, state management, API integration, hingga build APK.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Android / Flutter Dasar</div>
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> UI Mobile &amp; Navigation</div>
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> REST API Integration</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Konsep Dasar &amp; Native vs Cross-Platform</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Dart, Flutter &amp; Widget UI</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Navigasi, State &amp; Form</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Database Lokal, REST API &amp; Auth</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Multimedia &amp; Deployment APK</div>
                             </div>
                         </div>
                     </div>
@@ -939,7 +943,7 @@
                 <!-- ===== R6 – KK Basis Data ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all ring-2 ring-secondary ring-offset-2"
                     data-kelas="kelas-xi" data-subject="R6 – KK Basis Data"
-                    data-keywords="r6 basis data database mysql postgresql normalization sql query erd relational">
+                    data-keywords="r6 basis data database mysql postgresql sqlite erd normalisasi 1nf 2nf 3nf primary key foreign key join inner left right ddl dml dcl grant revoke backup restore query aggregation group by having">
                     <div>
                         <div class="p-space-sm border-b-[2px] border-on-background bg-secondary-container flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">R6</span>
@@ -951,12 +955,14 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">Basis Data</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Perancangan &amp; pengelolaan basis data relasional: ERD, normalisasi, query kompleks, indexing.
+                                Rancang &amp; kelola basis data relasional: ERD, normalisasi, SQL query lanjutan, JOIN, dan keamanan akses.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> ERD &amp; Normalisasi</div>
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Query Kompleks &amp; JOIN</div>
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Indexing &amp; Optimization</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Konsep Data, DBMS &amp; Hierarki</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> ERD, Keys &amp; Normalisasi (1NF–3NF)</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> SQL DDL, DML &amp; Query Lanjutan</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> JOIN, Agregasi &amp; Group By</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Keamanan (DCL) &amp; Backup/Restore</div>
                             </div>
                         </div>
                     </div>
@@ -972,7 +978,7 @@
                 <!-- ===== B7R – Proyek Kreatif dan Kewirausahaan (PKK) ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all ring-2 ring-secondary ring-offset-2"
                     data-kelas="kelas-xi" data-subject="B7R – Proyek Kreatif dan Kewirausahaan (PKK)"
-                    data-keywords="pkk proyek kreatif kewirausahaan bisnis startup produk wirausaha ide bisnis digital">
+                    data-keywords="pkk proyek kreatif kewirausahaan bisnis startup produk wirausaha ide bisnis digital swot haki ui ux prototype sdlc agile scrum marketing 4p rab laporan keuangan">
                     <div>
                         <div class="p-space-sm border-b-[2px] border-on-background bg-secondary-container flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">B7R</span>
@@ -984,12 +990,14 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">Proyek Kreatif &amp; Kewirausahaan</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Merancang ide bisnis digital, validasi produk, business model canvas, dan pitching.
+                                Rancang ide bisnis digital, validasi produk, produksi software, hingga strategi pemasaran &amp; keuangan.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Ide &amp; Validasi Produk</div>
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Business Model Canvas</div>
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Pitching &amp; Presentasi</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Sikap Wirausaha &amp; 10D Bygrave</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> SWOT, 5W+1H &amp; HAKI</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> UI/UX, Prototype &amp; SDLC</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Marketing 4P &amp; Digital</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> RAB &amp; Laporan Keuangan</div>
                             </div>
                         </div>
                     </div>
@@ -1002,10 +1010,10 @@
                     </div>
                 </article>
 
-                <!-- ===== B9R1 – MP Basis Data (Pilihan Kejuruan) ===== -->
+                <!-- ===== B9R1 – MP Basis Data Lanjutan (Pilihan Kejuruan) ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all ring-2 ring-secondary ring-offset-2"
-                    data-kelas="kelas-xi" data-subject="B9R1 – MP Basis Data (Mata Pelajaran Pilihan Kejuruan)"
-                    data-keywords="b9r1 basis data lanjutan database nosql mongodb redis big data data warehouse">
+                    data-kelas="kelas-xi" data-subject="B9R1 – MP Basis Data Lanjutan &amp; Laravel API"
+                    data-keywords="b9r1 basis data lanjutan laravel blade templating api rest postman sanctum authentication crud json resource controller migration model endpoint token">
                     <div>
                         <div class="p-space-sm border-b-[2px] border-on-background bg-secondary-container flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">B9R1</span>
@@ -1017,12 +1025,13 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">MP Basis Data Lanjutan</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Basis data lanjutan: NoSQL, MongoDB, Redis, data warehouse, dan konsep big data.
+                                Templating Blade, REST API Laravel, CRUD JSON, Postman, &amp; Authentication dengan Sanctum.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> NoSQL &amp; MongoDB</div>
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Redis &amp; Caching</div>
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Data Warehouse &amp; Big Data</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Blade Templating &amp; Layout</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> REST API &amp; CRUD JSON</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Postman &amp; Sanctum Auth</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Frontend-Backend Terpisah</div>
                             </div>
                         </div>
                     </div>
@@ -1089,7 +1098,7 @@
                 <!-- ===== R6 – KK Basis Data ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[4px] border-on-background shadow-[6px_6px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[8px_8px_0px_#1c1b1b] transition-all ring-2 ring-primary ring-offset-2"
                     data-kelas="kelas-xii" data-subject="R6 – KK Basis Data (Kelas XII)"
-                    data-keywords="r6 basis data database lanjutan mysql postgresql big data data warehouse etl bi analytics nosql kelas 12">
+                    data-keywords="r6 basis data advanced sql subquery join view stored procedure function trigger client server security sql injection backup restore indexing explain capstone kelas 12">
                     <div>
                         <div class="p-space-sm border-b-[3px] border-on-background bg-on-background text-inverse-on-surface flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-primary-fixed">R6 • CORE</span>
@@ -1101,12 +1110,13 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface font-bold">KK Basis Data</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Perancangan &amp; pengelolaan database lanjutan: normalisasi, query kompleks, ETL pipeline, data warehouse, dan Business Intelligence.
+                                Pengolahan data lanjutan: Advanced SQL, JOIN kompleks, View, Stored Procedure, Trigger, keamanan, backup, &amp; indexing.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-on-background pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Normalisasi &amp; ERD Kompleks</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> ETL &amp; Data Warehouse</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Business Intelligence</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Advanced SQL &amp; JOIN</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> View, Procedure &amp; Trigger</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Security, Backup &amp; Indexing</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Capstone Project</div>
                             </div>
                         </div>
                     </div>
@@ -1122,7 +1132,7 @@
                 <!-- ===== R5 – KK Pemrograman Perangkat Bergerak ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[4px] border-on-background shadow-[6px_6px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[8px_8px_0px_#1c1b1b] transition-all ring-2 ring-primary ring-offset-2"
                     data-kelas="kelas-xii" data-subject="R5 – KK Pemrograman Perangkat Bergerak (Kelas XII)"
-                    data-keywords="r5 mobile android flutter react native kotlin firebase push notification playstore publishing kelas 12">
+                    data-keywords="r5 mobile android flutter react native kotlin firebase push notification playstore publishing state management sqlite room api json http testing deployment kelas 12">
                     <div>
                         <div class="p-space-sm border-b-[3px] border-on-background bg-on-background text-inverse-on-surface flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-primary-fixed">R5 • CORE</span>
@@ -1137,9 +1147,10 @@
                                 Pengembangan aplikasi Android/Mobile production-ready: UI/UX mobile, state management, integrasi API, &amp; publishing.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-on-background pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Flutter / React Native</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Firebase &amp; Push Notif</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Publishing Play Store</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Arsitektur, State &amp; Local Storage</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> API, JSON &amp; Device Features</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Keamanan, Testing &amp; Publishing</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Capstone Project 13 Tahap</div>
                             </div>
                         </div>
                     </div>
@@ -1155,7 +1166,7 @@
                 <!-- ===== R4 – KK Pemrograman Web ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[4px] border-on-background shadow-[6px_6px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[8px_8px_0px_#1c1b1b] transition-all ring-2 ring-primary ring-offset-2"
                     data-kelas="kelas-xii" data-subject="R4 – KK Pemrograman Web (Kelas XII)"
-                    data-keywords="r4 pemrograman web lanjutan laravel react rest api fullstack deployment docker ci cd devops kelas 12">
+                    data-keywords="r4 pemrograman web lanjutan flowchart dfd erd flowchart sistem laporan proyek website transaksi peminjaman penyewaan business logic testing keamanan deployment fullstack laravel kelas 12">
                     <div>
                         <div class="p-space-sm border-b-[3px] border-on-background bg-on-background text-inverse-on-surface flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-primary-fixed">R4 • CORE</span>
@@ -1167,12 +1178,12 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface font-bold">KK Pemrograman Web</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Pembuatan website/web application production-ready: fullstack framework, REST API, auth, dan deployment.
+                                Analisis, perancangan &amp; pembuatan website transaksi: flowchart, DFD, ERD, business logic, testing, hingga deployment.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-on-background pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Fullstack Laravel + React</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> REST API &amp; Auth</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Docker &amp; CI/CD Deploy</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Flowchart, DFD &amp; ERD</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Website Transaksi &amp; Business Logic</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Laporan, Testing &amp; Deployment</div>
                             </div>
                         </div>
                     </div>
@@ -1188,7 +1199,7 @@
                 <!-- ===== R3 – KK Pemrograman Basis Teks, Grafis & Multimedia ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[4px] border-on-background shadow-[6px_6px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[8px_8px_0px_#1c1b1b] transition-all ring-2 ring-primary ring-offset-2"
                     data-kelas="kelas-xii" data-subject="R3 – KK Pemrograman Basis Teks, Grafis & Multimedia (Kelas XII)"
-                    data-keywords="r3 multimedia grafis teks pemrograman lanjutan 3d animasi game engine pipeline konten digital kelas 12">
+                    data-keywords="r3 aplikasi desktop database auth crud transaction report uml flowchart dfd erd primary key foreign key relasi proposal c# java vb mysql kelas 12">
                     <div>
                         <div class="p-space-sm border-b-[3px] border-on-background bg-on-background text-inverse-on-surface flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-primary-fixed">R3 • CORE</span>
@@ -1200,12 +1211,13 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface font-bold">KK Pemrograman Teks, Grafis &amp; Multimedia</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Pengembangan software berbasis teks, grafis, dan multimedia: grafis 3D, animasi, game engine, &amp; pipeline produksi konten.
+                                Aplikasi Desktop + Database: auth, CRUD, transaction (ACID), report, UML/DFD/ERD, hingga proposal &amp; deployment.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-on-background pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Grafis 3D &amp; Animasi</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Game Engine Dasar</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Pipeline Konten Digital</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Desktop App &amp; Database Connection</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Auth, CRUD, Transaction (ACID)</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> UML, Flowchart, DFD, ERD</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Report &amp; Proposal Aplikasi</div>
                             </div>
                         </div>
                     </div>
@@ -1221,7 +1233,7 @@
                 <!-- ===== B7R – PKK ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[4px] border-on-background shadow-[6px_6px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[8px_8px_0px_#1c1b1b] transition-all ring-2 ring-secondary ring-offset-2"
                     data-kelas="kelas-xii" data-subject="B7R – Kreativitas, Inovasi & Kewirausahaan (PKK) (Kelas XII)"
-                    data-keywords="pkk pkk kewirausahaan kreativitas inovasi produk kreatif bisnis digital startup pitching monetisasi kelas 12">
+                    data-keywords="pkk kewirausahaan kreativitas inovasi produk kreatif bisnis digital startup pitching monetisasi hpp bep proposal laporan swot hki stp marketing mix 4p 7p scaling up kelas 12">
                     <div>
                         <div class="p-space-sm border-b-[3px] border-on-background bg-on-background text-inverse-on-surface flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-secondary-fixed">B7R • FINAL</span>
@@ -1233,12 +1245,13 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface font-bold">PKK — Kreativitas, Inovasi &amp; Kewirausahaan</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Produk kreatif &amp; kewirausahaan bidang IT: validasi ide, business model, monetisasi, dan pitching startup.
+                                Produk kreatif &amp; kewirausahaan bidang IT: validasi ide, business model, monetisasi, pitching startup, &amp; proposal.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-on-background pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Produk Kreatif IT</div>
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Business Model &amp; Monetisasi</div>
-                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Pitching &amp; Scale-Up</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Kreativitas, Inovasi &amp; Produksi Massal</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> HPP, BEP, Marketing Mix &amp; Digital</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> HKI, SWOT &amp; Laporan Keuangan</div>
+                                <div class="flex items-center gap-2"><span class="text-secondary font-bold">›</span> Proposal &amp; Laporan Kegiatan</div>
                             </div>
                         </div>
                     </div>
@@ -1293,13 +1306,13 @@
                 </div>
 
                 <!-- ===== B1 – Matematika ===== -->
-                <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all"
+                <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all ring-2 ring-tertiary ring-offset-2"
                     data-kelas="kelas-xii" data-subject="B1 – Matematika (Kelas XII)"
-                    data-keywords="matematika integral peluang statistika inferensial aplikasi teknologi kelas 12">
+                    data-keywords="matematika barisan deret aritmetika geometri bunga tunggal majemuk anuitas transformasi fungsi lingkaran busur juring kombinatorik permutasi kombinasi peluang statistika kelas 12">
                     <div>
-                        <div class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
+                        <div class="p-space-sm border-b-[2px] border-on-background bg-tertiary-fixed flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">B1</span>
-                            <span class="px-2 py-0.5 bg-surface text-on-surface border border-on-background font-label-sm text-label-sm">UMUM</span>
+                            <span class="px-2 py-0.5 bg-on-background text-inverse-on-surface border border-on-background font-label-sm text-label-sm font-bold">UMUM</span>
                         </div>
                         <div class="p-space-md">
                             <div class="flex items-center gap-2 mb-2">
@@ -1307,32 +1320,32 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">Matematika</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Integral, peluang, statistika inferensial, dan aplikasi matematika dalam teknologi.
+                                Barisan &amp; deret, matematika keuangan, transformasi, lingkaran, kombinatorik, hingga peluang &amp; statistika.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Integral</div>
-                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Peluang &amp; Statistika</div>
-                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Aplikasi Teknologi</div>
+                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Barisan, Deret &amp; Keuangan</div>
+                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Transformasi &amp; Lingkaran</div>
+                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Kombinatorik &amp; Peluang</div>
                             </div>
                         </div>
                     </div>
                     <div class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
                         <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">MAPEL UMUM</span>
                         <a href="{{ route('modul.kelas12.math') }}"
-                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-tertiary-fixed border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-primary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
                             BUKA MODUL <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
                         </a>
                     </div>
                 </article>
 
                 <!-- ===== B2 – Bahasa Inggris ===== -->
-                <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all"
+                <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all ring-2 ring-tertiary ring-offset-2"
                     data-kelas="kelas-xii" data-subject="B2 – Bahasa Inggris (Kelas XII)"
-                    data-keywords="bahasa inggris english job application cv interview professional communication kelas 12">
+                    data-keywords="bahasa inggris english narrative argumentative hortatory discussion job application cv interview news item review conditional sentences media literacy kelas 12">
                     <div>
-                        <div class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
+                        <div class="p-space-sm border-b-[2px] border-on-background bg-tertiary-fixed flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">B2</span>
-                            <span class="px-2 py-0.5 bg-surface text-on-surface border border-on-background font-label-sm text-label-sm">UMUM</span>
+                            <span class="px-2 py-0.5 bg-on-background text-inverse-on-surface border border-on-background font-label-sm text-label-sm font-bold">UMUM</span>
                         </div>
                         <div class="p-space-md">
                             <div class="flex items-center gap-2 mb-2">
@@ -1340,32 +1353,33 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">Bahasa Inggris</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Job application, CV, interview, dan English for professional communication.
+                                Narrative, Argumentative, Hortatory, Discussion, Job Application &amp; CV, hingga Conditional Sentences.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
+                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Narrative &amp; Argumentative</div>
+                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Hortatory &amp; Discussion</div>
                                 <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Job Application &amp; CV</div>
-                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Interview English</div>
-                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> Professional Communication</div>
+                                <div class="flex items-center gap-2"><span class="text-tertiary font-bold">›</span> News, Review &amp; Conditional</div>
                             </div>
                         </div>
                     </div>
                     <div class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
                         <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">MAPEL UMUM</span>
                         <a href="{{ route('modul.kelas12.binggris') }}"
-                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-tertiary-fixed border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-primary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
                             BUKA MODUL <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
                         </a>
                     </div>
                 </article>
 
                 <!-- ===== A3 – Bahasa Indonesia ===== -->
-                <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all"
+                <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all ring-2 ring-primary ring-offset-2"
                     data-kelas="kelas-xii" data-subject="A3 – Bahasa Indonesia (Kelas XII)"
-                    data-keywords="bahasa indonesia surat lamaran kritik sastra teks editorial karya ilmiah kelas 12">
+                    data-keywords="bahasa indonesia surat lamaran kerja teks editorial eksposisi persuasif deskripsi observasi kritik sastra esai karya ilmiah AI kearifan lokal kelas 12">
                     <div>
-                        <div class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
+                        <div class="p-space-sm border-b-[2px] border-on-background bg-primary-fixed flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">A3</span>
-                            <span class="px-2 py-0.5 bg-surface text-on-surface border border-on-background font-label-sm text-label-sm">UMUM</span>
+                            <span class="px-2 py-0.5 bg-on-background text-inverse-on-surface border border-on-background font-label-sm text-label-sm font-bold">UMUM</span>
                         </div>
                         <div class="p-space-md">
                             <div class="flex items-center gap-2 mb-2">
@@ -1377,15 +1391,16 @@
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
                                 <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Surat Lamaran Kerja</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Teks Editorial</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Kritik &amp; Esai Sastra</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Teks Eksposisi &amp; Persuasif</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> AI &amp; Kearifan Lokal</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Kritik Sastra &amp; Esai</div>
                             </div>
                         </div>
                     </div>
                     <div class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
                         <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">MAPEL UMUM</span>
                         <a href="{{ route('modul.kelas12.bindo') }}"
-                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
+                            class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-primary-fixed border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-primary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
                             BUKA MODUL <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
                         </a>
                     </div>
@@ -1394,7 +1409,7 @@
                 <!-- ===== A1 – Pendidikan Agama ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all"
                     data-kelas="kelas-xii" data-subject="A1 – Pendidikan Agama dan Budi Pekerti (Kelas XII)"
-                    data-keywords="agama budi pekerti akhlak moral etika spiritual refleksi kelas 12">
+                    data-keywords="agama budi pekerti akhlak moral etika spiritual musibah iman islam ihsan munafik waris mawaris peradaban islam moderasi beragama ilmu kalam ijtihad organisasi islam kelas 12">
                     <div>
                         <div class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">A1</span>
@@ -1406,17 +1421,19 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">Pend. Agama &amp; Budi Pekerti</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Refleksi spiritual, tanggung jawab sosial, dan etika profesi sebagai bekal dunia kerja.
+                                Sabar, iman–islam–ihsan, munafik &amp; keras hati, kewarisan Islam, peradaban Islam, moderasi beragama, ilmu kalam, ijtihad, dan organisasi Islam di Indonesia.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Refleksi Spiritual</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Etika Profesi</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Tanggung Jawab Sosial</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Sabar &amp; Musibah</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Iman, Islam, Ihsan</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Kewarisan Islam</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Moderasi Beragama</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Ilmu Kalam &amp; Ijtihad</div>
                             </div>
                         </div>
                     </div>
                     <div class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
-                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">MAPEL UMUM</span>
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">10 BAB · MAPEL UMUM</span>
                         <a href="{{ route('modul.kelas12.pai') }}"
                             class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
                             BUKA MODUL <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
@@ -1427,7 +1444,7 @@
                 <!-- ===== A2 – Pendidikan Pancasila ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all"
                     data-kelas="kelas-xii" data-subject="A2 – Pendidikan Pancasila (Kelas XII)"
-                    data-keywords="ppkn pancasila kewarganegaraan nkri uud ham demokrasi ketatanegaraan kelas 12">
+                    data-keywords="ppkn pancasila kewarganegaraan nkri uud 1945 ham demokrasi konstitusi bhinneka tunggal ika hukum hubungan internasional bhinneka globalisasi kelas 12">
                     <div>
                         <div class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">A2</span>
@@ -1439,17 +1456,19 @@
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">Pendidikan Pancasila</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Dinamika ketatanegaraan, integrasi nasional, dan peran Indonesia di kancah global.
+                                Ber-Pancasila, demokrasi &amp; konstitusi, tantangan global, Bhinneka Tunggal Ika, sistem hukum, hubungan internasional, dan proyek kewarganegaraan.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Ketatanegaraan</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Integrasi Nasional</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Pancasila &amp; Identitas</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Demokrasi &amp; UUD 1945</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Tantangan Global</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Sistem Hukum Indonesia</div>
                                 <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Peran Global Indonesia</div>
                             </div>
                         </div>
                     </div>
                     <div class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
-                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">MAPEL UMUM</span>
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">7 BAB · MAPEL UMUM</span>
                         <a href="{{ route('modul.kelas12.ppkn') }}"
                             class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
                             BUKA MODUL <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
@@ -1460,7 +1479,7 @@
                 <!-- ===== ML – Muatan Lokal Bahasa Jawa ===== -->
                 <article class="subject-card bg-surface-container-lowest border-[3px] border-on-background shadow-[4px_4px_0px_#1c1b1b] flex flex-col justify-between hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_#1c1b1b] transition-all"
                     data-kelas="kelas-xii" data-subject="ML – Muatan Lokal Bahasa Jawa (Kelas XII)"
-                    data-keywords="mulok bahasa jawa muatan lokal aksara jawa unggah ungguh budaya jawa sastra pewayangan kelas 12">
+                    data-keywords="mulok bahasa jawa muatan lokal aksara jawa unggah ungguh budaya jawa sastra tembang macapat kinanthi geguritan busana jawa gamelan karawitan aksara swara murda rekan serat tripama dhandhanggula wewaler gugon tuhon sandiwara pariwara kelas 12">
                     <div>
                         <div class="p-space-sm border-b-[2px] border-on-background bg-surface-container flex items-center justify-between">
                             <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">ML</span>
@@ -1468,21 +1487,23 @@
                         </div>
                         <div class="p-space-md">
                             <div class="flex items-center gap-2 mb-2">
-                                <span class="material-symbols-outlined text-primary text-[24px]">language</span>
+                                <span class="material-symbols-outlined text-primary text-[24px]">translate</span>
                                 <h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">Muatan Lokal — Bahasa Jawa</h3>
                             </div>
                             <p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-                                Sastra Jawa modern, pewayangan, dan preservasi budaya Jawa di era industri 4.0.
+                                Tembang macapat, geguritan, busana Jawa, gamelan, aksara Jawa, Serat Tripama, unggah-ungguh basa, sandiwara, dan pariwara.
                             </p>
                             <div class="space-y-1.5 border-t-[2px] border-surface-container-highest pt-space-sm font-code-inline text-code-inline text-on-surface">
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Sastra Jawa Modern</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Pewayangan</div>
-                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Budaya Jawa 4.0</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Tembang Macapat</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Geguritan</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Busana &amp; Gamelan</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Aksara Jawa</div>
+                                <div class="flex items-center gap-2"><span class="text-primary font-bold">›</span> Unggah-Ungguh Basa</div>
                             </div>
                         </div>
                     </div>
                     <div class="p-space-md border-t-[2px] border-on-background bg-surface-container-low flex items-center justify-between">
-                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">MUATAN LOKAL</span>
+                        <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">10 BAB · MULOK</span>
                         <a href="{{ route('modul.kelas12.bjawa') }}"
                             class="font-label-sm text-label-sm uppercase font-bold px-3 py-1.5 bg-surface border-[2px] border-on-background shadow-[2px_2px_0px_#1c1b1b] hover:bg-secondary-container active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all flex items-center gap-1">
                             BUKA MODUL <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
